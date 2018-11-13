@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartShadedArea> when it renders has proper markup 1`] = `
+<g
+  className="ChartShadedArea"
+>
+  <path
+    clipPath="url(#chartArea)"
+    d="M2,2L4,4L6,6L6,6L4,4L2,2Z"
+    fill="red"
+  />
+</g>
+`;

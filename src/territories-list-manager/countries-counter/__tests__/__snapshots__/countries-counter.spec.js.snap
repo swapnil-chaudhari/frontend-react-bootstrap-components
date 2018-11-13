@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountriesCounter> when it renders should contain correct numbers 1`] = `
+<div
+  className="CountriesCounter"
+>
+  <span>
+    0
+     
+    of
+     
+    0
+  </span>
+</div>
+`;

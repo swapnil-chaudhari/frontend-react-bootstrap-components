@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CancelAddButton> when it renders renders a button with an onClick and the right text 1`] = `
+<Button
+  bsStyle="link"
+  onClick={[MockFunction]}
+>
+  Cancel
+</Button>
+`;

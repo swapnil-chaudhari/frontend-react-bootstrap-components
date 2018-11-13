@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CollapsableAlert> when rendered with children and expand is clicked renders in an expanded state with provided children 1`] = `
+<div
+  className="CollapsableAlert CollapsableAlert-warning"
+>
+  <div
+    className="CollapsableAlert-top-banner"
+  >
+    <IncompleteAlert />
+    <div
+      className="CollapsableAlert-titles"
+    >
+      <h3
+        className="CollapsableAlert-warning-title"
+      >
+        Rejection Reasons
+      </h3>
+      <p
+        className="CollapsableAlert-subtitle"
+      >
+        You have been rejected. No hard feelings, bub.
+      </p>
+    </div>
+    <button
+      className="CollapsableAlert-button"
+      onClick={[Function]}
+    >
+      BEGONE
+      <UpDirectionArrow />
+    </button>
+  </div>
+  <div
+    className="CollapsableAlert-expanded-contents"
+  >
+    I am a child
+  </div>
+</div>
+`;
+
+exports[`<CollapsableAlert> when rendered with custom props has expected markup 1`] = `
+<div
+  className="CollapsableAlert CollapsableAlert-warning"
+>
+  <div
+    className="CollapsableAlert-top-banner"
+  >
+    <IncompleteAlert />
+    <div
+      className="CollapsableAlert-titles"
+    >
+      <h3
+        className="CollapsableAlert-warning-title"
+      >
+        Rejection Reasons
+      </h3>
+      <p
+        className="CollapsableAlert-subtitle"
+      >
+        You have been rejected. No hard feelings, bub.
+      </p>
+    </div>
+    <button
+      className="CollapsableAlert-button"
+      onClick={[Function]}
+    >
+      BEHOLD
+      <DownDirectionArrow />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<CollapsableAlert> when rendered with default props has expected markup 1`] = `
+<div
+  className="CollapsableAlert CollapsableAlert-default"
+>
+  <div
+    className="CollapsableAlert-top-banner"
+  >
+    <IncompleteAlert />
+    <div
+      className="CollapsableAlert-titles"
+    >
+      <h3
+        className="CollapsableAlert-default-title"
+      >
+        Rejection Reasons
+      </h3>
+      <p
+        className="CollapsableAlert-subtitle"
+      >
+        You have been rejected. No hard feelings, bub.
+      </p>
+    </div>
+    <button
+      className="CollapsableAlert-button"
+      onClick={[Function]}
+    >
+      SEE REASONS
+      <DownDirectionArrow />
+    </button>
+  </div>
+</div>
+`;

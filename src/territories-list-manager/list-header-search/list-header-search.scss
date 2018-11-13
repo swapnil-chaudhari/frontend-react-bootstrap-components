@@ -1,0 +1,25 @@
+@import "src/styles/variables";
+
+.ListHeaderSearch {
+    &-field {
+        border: 1px solid $grey_200;
+        border-radius: 5px;
+        font-size: 14px;
+        height: 35px;
+        padding: 5px 20px 5px 30px;
+        width: 100%;
+    }
+
+    &-search {
+        margin-left: 10px;
+        margin-top: 10px;
+        position: absolute;
+    }
+
+    &-close {
+        cursor: pointer;
+        margin-left: -30px;
+        margin-top: 5px;
+        position: absolute;
+    }
+}

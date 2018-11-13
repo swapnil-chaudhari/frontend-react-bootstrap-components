@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AddNewBox> when rendered with required props renders props.fields with the cancel and save buttons 1`] = `
+<article
+  className="SelectInputWithAddNew-new-box"
+  onChange={[Function]}
+>
+  <input
+    form="add-new-somename"
+    name="something"
+  />
+  <div
+    className="SelectInputWithAddNew-button-wrapper"
+  >
+    <CancelAddButton
+      onClick={[Function]}
+      text="Cancel me"
+    />
+    <SaveAddButton
+      disabled={true}
+      onClick={[Function]}
+      text="Save me"
+    />
+  </div>
+</article>
+`;

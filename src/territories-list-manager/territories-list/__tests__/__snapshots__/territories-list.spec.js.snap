@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TerritoriesList> when it renders should render continents and countries 1`] = `
+<div
+  className="TerritoriesList"
+>
+  <ContinentItem
+    countries={
+      Array [
+        Object {
+          "continent": "Asia",
+          "isSelected": true,
+          "orchId": 14,
+          "territoryName": "Afghanistan",
+        },
+        Object {
+          "continent": "Asia",
+          "isSelected": false,
+          "orchId": 16,
+          "territoryName": "Nepal",
+        },
+      ]
+    }
+    expandAll={false}
+    name="Asia"
+    onCountrySelect={[Function]}
+    territoryIdKey="orchId"
+    territoryNameKey="territoryName"
+  />
+  <ContinentItem
+    countries={
+      Array [
+        Object {
+          "continent": "Africa",
+          "isSelected": true,
+          "orchId": 15,
+          "territoryName": "Zimbabwe",
+        },
+      ]
+    }
+    expandAll={false}
+    name="Africa"
+    onCountrySelect={[Function]}
+    territoryIdKey="orchId"
+    territoryNameKey="territoryName"
+  />
+</div>
+`;
+
+exports[`<TerritoriesList> when it renders without countries should render empty list when no countries passed 1`] = `
+<div
+  className="TerritoriesList-empty"
+>
+  <p>
+    empty list label
+  </p>
+  <p>
+    empty list label from
+    <b>
+       NOT Cleared for Sale 
+    </b>
+    empty list description
+  </p>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartLine> when it renders has proper markup 1`] = `
+<g>
+  <path
+    className="ChartLine ChartLine-overall"
+    d="M20,20L60,60L100,100L140,140L160,160L240,240L260,260L280,280"
+    stroke="#000"
+  />
+</g>
+`;

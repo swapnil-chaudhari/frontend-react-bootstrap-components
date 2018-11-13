@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartXaxis> when it has hover has proper markup 1`] = `
+<g
+  className="ChartXaxis"
+  transform="translate(50, 0)"
+>
+  <text
+    className="ChartXaxis-hover-text"
+    textAnchor="middle"
+    x={70}
+    y={400}
+  >
+    February 15th, 2005
+  </text>
+</g>
+`;
+
+exports[`<ChartXaxis> when it renders has proper markup 1`] = `
+<g
+  className="ChartXaxis"
+  transform="translate(50, 0)"
+>
+  <g>
+    <text
+      className="ChartXaxis-label"
+      x="2018-03-12"
+      y={400}
+    >
+      Mar 12, 2018
+    </text>
+  </g>
+  <g>
+    <text
+      className="ChartXaxis-label"
+      x="2018-03-24"
+      y={400}
+    >
+      Mar 24, 2018
+    </text>
+  </g>
+  <g>
+    <text
+      className="ChartXaxis-label"
+      x="2018-04-05"
+      y={400}
+    >
+      Apr 5, 2018
+    </text>
+  </g>
+</g>
+`;

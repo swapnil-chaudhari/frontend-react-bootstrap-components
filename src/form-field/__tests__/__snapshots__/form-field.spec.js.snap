@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField> when it has a value for props.className augments the style classes on the outermost div with the supplied classes 1`] = `
+<div
+  className="form-group test-class"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="test-div"
+  />
+  <div
+    className="FormField-form-control"
+    id="test-div"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props errorMessage is supplied and it is node renders an error message 1`] = `
+<div
+  className="form-group FormField-group-has-error"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  />
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+  <span
+    className="FormField-errorMessage"
+  >
+    <span>
+      Everybody knows ducks come from volcanoes.
+    </span>
+  </span>
+</div>
+`;
+
+exports[`<FormField> when props errorMessage is supplied and it simple string renders an error message 1`] = `
+<div
+  className="form-group FormField-group-has-error"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  />
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+  <span
+    className="FormField-errorMessage"
+  >
+    Everybody knows ducks come from volcanoes.
+  </span>
+</div>
+`;
+
+exports[`<FormField> when props note is supplied and it renders a note 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  />
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  >
+    When I wore a younger mans clothes
+  </span>
+</div>
+`;
+
+exports[`<FormField> when props.help and props.isRequired are supplied renders help and required icon in the proper order 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  >
+    <span
+      className="FormField-required"
+      role="tooltip"
+      title="required"
+    >
+      *
+    </span>
+    <Help
+      id="help-737884497096766615"
+      message="Please help me, please."
+      overlayType="tooltip"
+      rootClose={false}
+      tooltipPlacement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    />
+  </label>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.help is supplied and it is React.element renders a help icon 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  >
+    <Help
+      id="help"
+      message="Please help me, please."
+      overlayType="tooltip"
+      rootClose={false}
+      tooltipPlacement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    />
+  </label>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.help is supplied and it is simple text renders a help icon 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  >
+    <Help
+      id="help-737884497096766615"
+      message="Please help me, please."
+      overlayType="tooltip"
+      rootClose={false}
+      tooltipPlacement="top"
+      trigger={
+        Array [
+          "hover",
+          "focus",
+        ]
+      }
+    />
+  </label>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.isRequired is passed in and it is false does not render a required icon and title 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  />
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.isRequired is passed in and it is true renders a required icon and title 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  >
+    <span
+      className="FormField-required"
+      role="tooltip"
+      title="required"
+    >
+      *
+    </span>
+  </label>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.label and labelAppendix are supplied renders a label with an appendix 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <div
+    className="FormField-labelWrapper"
+  >
+    <label
+      className="FormField-label"
+      htmlFor="737884497096766615"
+    >
+      label
+    </label>
+    <div
+      className="FormField-labelAppendix"
+    >
+      <a>
+        appendix
+      </a>
+    </div>
+  </div>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when props.label is supplied renders a labeled input 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  >
+    label
+  </label>
+  <input
+    className="FormField-form-control"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when the child component has a value for props.className will augment the child's props.className with the FormField-form-control class 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="737884497096766615"
+  />
+  <input
+    className="FormField-form-control child-class"
+    id="737884497096766615"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;
+
+exports[`<FormField> when the child component has a value for props.id will preserve the child component's id 1`] = `
+<div
+  className="form-group"
+  id={undefined}
+>
+  <label
+    className="FormField-label"
+    htmlFor="child-id"
+  />
+  <input
+    className="FormField-form-control"
+    id="child-id"
+  />
+  <span
+    className="FormField-note"
+  />
+</div>
+`;

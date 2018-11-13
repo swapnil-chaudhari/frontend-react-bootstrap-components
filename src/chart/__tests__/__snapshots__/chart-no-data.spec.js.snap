@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartNoData> when it renders with data has proper markup 1`] = `
+<g>
+  <text
+    className="NoGraphData"
+    textAnchor="middle"
+    x={500}
+    y={200}
+  >
+    NO DATA
+  </text>
+</g>
+`;

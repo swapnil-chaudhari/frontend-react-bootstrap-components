@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert> when it is rendered with content has proper markup 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="warning"
+  closeLabel="Close alert"
+>
+  Some Message
+</Alert>
+`;
+
+exports[`<Alert> when it is rendered with default props has proper markup 1`] = `
+<Alert
+  bsClass="alert"
+  bsStyle="info"
+  closeLabel="Close alert"
+/>
+`;

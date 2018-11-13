@@ -1,0 +1,12 @@
+@import "src/styles/variables.scss";
+
+.GroupedBarChartXaxis {
+    &-line {
+        stroke: $timberwolf;
+    }
+
+    &-label {
+        text-anchor: middle;
+        transform: translateY(-4px);
+    }
+}

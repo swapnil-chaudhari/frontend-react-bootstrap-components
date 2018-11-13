@@ -1,0 +1,17 @@
+html
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+        title="Shared Components Library Playground"
+
+        link(rel='stylesheet', href=__SHARED_ASSET_URL__ + '/css/vendor-redesign.css')
+        link(rel='stylesheet', href=__SHARED_ASSET_URL__ + '/css/global-redesign.css')
+        link(rel='stylesheet', href=__DEPLOYED_URL__ + 'react-components.css')
+
+        link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.css')
+        link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/theme/monokai.min.css')
+    body
+        div(id='playground')
+        script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.js')
+        script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/mode/javascript/javascript.min.js')
+        script(src='/frontend-react-components/main.bundle.js')

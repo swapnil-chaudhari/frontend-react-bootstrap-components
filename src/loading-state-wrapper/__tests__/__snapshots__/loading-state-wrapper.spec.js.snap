@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingStateWrapper> when isLoading is false renders the child component 1`] = `
+<div>
+  Hello World
+</div>
+`;
+
+exports[`<LoadingStateWrapper> when isLoading is true renders the <LoadingIndicator> 1`] = `<LoadingIndicator />`;

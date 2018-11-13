@@ -1,0 +1,30 @@
+@import "src/styles/variables";
+
+.GlobalCountriesSelector {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+
+    &-all,
+    &-none {
+        font-size: 14px;
+        padding: 0 5px;
+        text-transform: capitalize;
+    }
+
+    & :first-child {
+        font-size: 14px;
+    }
+
+    &-all,
+    &-all:hover {
+        border-right: 1px solid $grey_200;
+    }
+
+    &-all:hover,
+    &-none:hover {
+        cursor: pointer;
+    }
+}

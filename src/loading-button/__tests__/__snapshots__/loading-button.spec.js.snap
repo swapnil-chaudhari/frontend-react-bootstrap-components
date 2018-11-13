@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingButton> hides the inner content and shows the loading icon when loading 1`] = `
+<Button
+  active={false}
+  disabled={true}
+>
+  <LoadingIndicator
+    small={true}
+    top={7}
+  />
+  <span
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  >
+    Inner
+  </span>
+</Button>
+`;
+
+exports[`<LoadingButton> renders the inner content when not loading 1`] = `
+<Button
+  active={false}
+  disabled={undefined}
+>
+  <span
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    Inner
+  </span>
+</Button>
+`;

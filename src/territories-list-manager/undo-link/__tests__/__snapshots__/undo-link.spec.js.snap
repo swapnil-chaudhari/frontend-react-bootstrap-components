@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UndoLink> when it renders renders correct number of countries 1`] = `
+<span>
+  <span>
+    1 undo description
+  </span>
+  <span
+    className="UndoLink-link btn btn-link"
+    onClick={[MockFunction]}
+  >
+    undo label
+  </span>
+</span>
+`;

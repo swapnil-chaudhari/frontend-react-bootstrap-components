@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal> when passed a value for \`footer\` renders with a footer 1`] = `
+<div
+  className="ReactModal-footer"
+>
+  <div
+    className="yummy"
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`<Modal> when passed a value for \`headerLabel\` renders <ReactModal> with the right props 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="ReactModal-body-open"
+  className="MyClass ReactModal"
+  closeTimeoutMS={0}
+  contentLabel="Modal"
+  isOpen={true}
+  onRequestClose={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+    }
+  }
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+  style={
+    Object {
+      "overlay": Object {
+        "backgroundColor": "rgba(75, 75, 75, 0.74902)",
+        "zIndex": 3,
+      },
+    }
+  }
+>
+  <div
+    className="ReactModal-content"
+  >
+    <header
+      className="ReactModal-header"
+    >
+      <div
+        className="ReactModal-close"
+        onClick={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+          }
+        }
+      >
+        <Close />
+      </div>
+      <h4
+        className="ReactModal-header-text"
+      >
+        Billy Yo
+      </h4>
+    </header>
+    <div
+      className="ReactModal-body"
+    >
+      Some stuff
+    </div>
+  </div>
+</Modal>
+`;
+
+exports[`<Modal> when rendered with all props renders <ReactModal> with the right props 1`] = `
+<Modal
+  ariaHideApp={false}
+  bodyOpenClassName="ReactModal-body-open"
+  className="MyClass ReactModal"
+  closeTimeoutMS={0}
+  contentLabel="Modal"
+  isOpen={true}
+  onRequestClose={[MockFunction]}
+  parentSelector={[Function]}
+  portalClassName="ReactModalPortal"
+  shouldCloseOnEsc={true}
+  shouldCloseOnOverlayClick={true}
+  shouldFocusAfterRender={true}
+  shouldReturnFocusAfterClose={true}
+  style={
+    Object {
+      "overlay": Object {
+        "backgroundColor": "rgba(75, 75, 75, 0.74902)",
+        "zIndex": 3,
+      },
+    }
+  }
+>
+  <div
+    className="ReactModal-content"
+  >
+    <div
+      className="ReactModal-body"
+    >
+      Some stuff
+    </div>
+  </div>
+</Modal>
+`;

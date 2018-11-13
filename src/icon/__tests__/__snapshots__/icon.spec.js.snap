@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon> when it renders renders an <svg> with the id from props.id 1`] = `
+<svg
+  className=""
+  height={undefined}
+  onClick={undefined}
+  width={undefined}
+  x={undefined}
+  y={undefined}
+>
+  <use
+    xlinkHref="#icon-calendar"
+  />
+</svg>
+`;
+
+exports[`<Icon> when it renders with a className prop renders an <svg> with the additional className(s) 1`] = `
+<svg
+  className="some-more-specific-class"
+  height={undefined}
+  onClick={undefined}
+  width={undefined}
+  x={undefined}
+  y={undefined}
+>
+  <use
+    xlinkHref="#icon-calendar"
+  />
+</svg>
+`;

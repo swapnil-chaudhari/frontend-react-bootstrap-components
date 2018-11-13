@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CountryItem> when it renders as country item should contain input checkbox and territory name 1`] = `
+<label
+  className="ContinentItem-label"
+>
+  <input
+    checked={true}
+    className=""
+    disabled={false}
+    onChange={[MockFunction]}
+    type="checkbox"
+  />
+  Ukraine
+</label>
+`;

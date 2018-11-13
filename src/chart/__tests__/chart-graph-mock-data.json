@@ -1,0 +1,45 @@
+{
+    "xAxisKey": "activity_datetime",
+    "yAxisKey": "metric_value",
+    "sourceTypes": ["facebook", "spotify", "instagram"],
+    "data": [
+        {
+            "activity_datetime": "2017-10-06",
+            "facebook": {
+                "metric_value": 200.0
+            },
+            "spotify": {
+                "metric_value": 50.0
+            },
+            "instagram": {
+                "metric_value": 40.0
+            }
+        },
+        {
+            "activity_datetime": "2017-10-08",
+            "facebook": {
+                "metric_value": 150.0
+            },
+            "spotify": {
+                "metric_value": 100.0
+            },
+            "instagram": {
+                "metric_value": 40.0
+            }
+        },
+        {
+            "activity_datetime": "2017-10-13",
+            "facebook": {
+                "metric_value": 350.0
+            },
+            "spotify": {
+                "metric_value": 50.0
+            },
+            "instagram": {
+                "metric_value": 30.0
+            }
+        }
+    ],
+    "isLoading": false,
+    "days": 7
+}

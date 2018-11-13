@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SnapshotItem> when it renders has proper markup 1`] = `
+<div
+  className="SnapshotItem"
+>
+  <div
+    className="SnapshotItem-line"
+    style={
+      Object {
+        "border": "1px solid red",
+      }
+    }
+  />
+  <div
+    className="SnapshotItem-upper-icon"
+  >
+    <svg>
+      <text>
+        Icon
+      </text>
+    </svg>
+  </div>
+  <span
+    className="SnapshotItem-title"
+  >
+    Revenue
+  </span>
+  <Help
+    id="737884497096766615"
+    message="Revenue"
+    overlayType="tooltip"
+    rootClose={false}
+    tooltipPlacement="top"
+    trigger={
+      Array [
+        "hover",
+        "focus",
+      ]
+    }
+  />
+  <h2
+    className="SnapshotItem-value"
+    style={
+      Object {
+        "color": "green",
+      }
+    }
+  >
+    $1.000.000
+  </h2>
+  <p>
+    17%
+  </p>
+</div>
+`;

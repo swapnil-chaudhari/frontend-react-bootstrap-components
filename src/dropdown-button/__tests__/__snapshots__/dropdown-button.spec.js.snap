@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownButton> when it renders has proper markup 1`] = `
+<div
+  className="DropdownButton Dropdown-variant"
+>
+  <Uncontrolled(Dropdown)
+    bsSize={undefined}
+    bsStyle={undefined}
+    disabled={true}
+    dropup={true}
+    id="#id"
+    onClose={[Function]}
+    onSelect={[Function]}
+    onToggle={[Function]}
+    open={true}
+    pullRight={true}
+  >
+    <DropdownToggle
+      bsClass="btn"
+      bsRole="toggle"
+      bsSize={undefined}
+      bsStyle={undefined}
+      withCaret={true}
+    >
+      Create
+    </DropdownToggle>
+    <DropdownMenu
+      bsClass="dropdown-menu"
+      bsRole="menu"
+      pullRight={false}
+    >
+      <MenuItem
+        bsClass="dropdown"
+        disabled={false}
+        divider={false}
+        eventKey="1"
+        header={false}
+      >
+        Item
+      </MenuItem>
+    </DropdownMenu>
+  </Uncontrolled(Dropdown)>
+</div>
+`;

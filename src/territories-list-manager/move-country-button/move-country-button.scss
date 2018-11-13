@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.MoveCountryButton {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &-icons {
+        flex-grow: 0;
+    }
+
+    &-reverse {
+        fill: $white;
+        transform: rotateY(180deg);
+    }
+
+    &-text {
+        flex-grow: 3;
+        font-size: 14px;
+    }
+}

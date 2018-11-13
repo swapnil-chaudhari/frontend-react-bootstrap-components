@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.CharacterLimitIndicator {
+    &-indicator {
+        color: $grey_300;
+        float: right;
+
+        &-error {
+            color: $red_200;
+        }
+    }
+
+    &-message {
+        display: inline;
+        font-weight: bold;
+    }
+
+    &-remaining {
+        display: inline;
+    }
+}

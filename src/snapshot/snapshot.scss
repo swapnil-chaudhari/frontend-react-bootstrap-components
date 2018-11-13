@@ -1,0 +1,10 @@
+@import "src/styles/variables";
+
+.Snapshot {
+    color: $grey_600;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SaveAddButton> when it renders with required props renders a button with an onClick and the right text 1`] = `
+<Button
+  disabled={undefined}
+  onClick={[MockFunction]}
+>
+  Add me
+</Button>
+`;

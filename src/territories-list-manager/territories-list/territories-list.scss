@@ -1,0 +1,29 @@
+@import "src/styles/variables";
+
+.TerritoriesList {
+    &-empty {
+        margin: 20% 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    & .ContinentItem:first-child {
+        & .ContinentItem-container:not(.ContinentItem-country) {
+            border-top: none;
+        }
+    }
+
+    .ContinentItem-container:first-child + .ContinentItem-country {
+        border-top: none;
+    }
+
+    & .ContinentItem:last-child {
+        & .ContinentItem-container:not(.ContinentItem-country) {
+            border-bottom: 1px solid $grey_300;
+        }
+
+        & .ContinentItem-container.ContinentItem-country:last-child {
+            border-bottom: 1px solid $grey_300;
+        }
+    }
+}

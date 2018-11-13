@@ -1,0 +1,19 @@
+{
+  "moduleNameMapper": {
+    "^lib\/(.*)$": "<rootDir>/lib/$1",
+    "^src\/(.*)$": "<rootDir>/src/$1",
+    "\\.scss$": "<rootDir>/__mocks__/ignore",
+    "\\.css": "<rootDir>/__mocks__/ignore"
+  },
+  "setupTestFrameworkScriptFile": "<rootDir>/setup-tests.js",
+  "transform": {
+    "^.+\\.js$": "babel-jest"
+  },
+  "coverageDirectory": "build/coverage",
+  "verbose": true,
+  "resetModules": true,
+  "testURL": "http://testurl.com",
+  "testPathIgnorePatterns": ["<rootDir>/node_modules/"],
+  "testResultsProcessor": "jest-junit",
+  "timers": "fake"
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination> when it renders should have proper markup 1`] = `
+<div
+  className="Pagination"
+>
+  <Pagination
+    activePage={2}
+    boundaryLinks={true}
+    bsClass="pagination"
+    buttonComponentClass={[Function]}
+    ellipsis={true}
+    first={false}
+    items={20}
+    last={false}
+    maxButtons={5}
+    next={<RightPaginationArrow />}
+    onSelect={[Function]}
+    prev={<LeftPaginationArrow />}
+  />
+</div>
+`;
+
+exports[`<Pagination> when it renders with size attribute adds classname Pagination-small for component wrapper 1`] = `
+<div
+  className="Pagination Pagination-small"
+>
+  <Pagination
+    activePage={2}
+    boundaryLinks={true}
+    bsClass="pagination"
+    buttonComponentClass={[Function]}
+    ellipsis={true}
+    first={false}
+    items={20}
+    last={false}
+    maxButtons={5}
+    next={<RightPaginationArrow />}
+    onSelect={[Function]}
+    prev={<LeftPaginationArrow />}
+  />
+</div>
+`;

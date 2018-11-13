@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectInputWithAddNew> when it is rendered and the "add new" is expanded renders without error and contains the add new box 1`] = `
+<div
+  id={undefined}
+>
+  <span
+    className="SelectInputWithAddNew-container"
+  >
+    <SelectInput
+      className="SelectInputWithAddNew-dropdown"
+      disabled={false}
+      dropUpIfOutOfViewport={false}
+      inputProps={undefined}
+      multi={false}
+      onChange={[MockFunction]}
+      options={Array []}
+      placeholder=""
+      selectType="select"
+      value={undefined}
+    />
+    <Button
+      bsStyle="link"
+      className="SelectInputWithAddNew-add-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+       + 
+      add something
+    </Button>
+    <AddNewBox
+      cancelButtonText="Cancel me"
+      fields={
+        <input
+          id="yo"
+        />
+      }
+      inputId="gangstas"
+      name="something"
+      onCancel={[Function]}
+      onSave={[Function]}
+      saveButtonText="Add something"
+    />
+  </span>
+</div>
+`;
+
+exports[`<SelectInputWithAddNew> when rendered with props.options renders the <SelectInput> with props.options 1`] = `
+<div
+  id={undefined}
+>
+  <span
+    className="SelectInputWithAddNew-container"
+  >
+    <SelectInput
+      className="SelectInputWithAddNew-dropdown"
+      disabled={false}
+      dropUpIfOutOfViewport={false}
+      inputProps={undefined}
+      multi={false}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "ian",
+            "value": "Ian",
+          },
+        ]
+      }
+      placeholder=""
+      selectType="select"
+      value={undefined}
+    />
+    <Button
+      bsStyle="link"
+      className="SelectInputWithAddNew-add-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+       + 
+      add something
+    </Button>
+  </span>
+</div>
+`;
+
+exports[`<SelectInputWithAddNew> when rendered with required props renders a <SelectInput> with the correct markup 1`] = `
+<div
+  id={undefined}
+>
+  <span
+    className="SelectInputWithAddNew-container"
+  >
+    <SelectInput
+      className="SelectInputWithAddNew-dropdown"
+      disabled={false}
+      dropUpIfOutOfViewport={false}
+      inputProps={undefined}
+      multi={false}
+      onChange={[MockFunction]}
+      options={Array []}
+      placeholder=""
+      selectType="select"
+      value={undefined}
+    />
+    <Button
+      bsStyle="link"
+      className="SelectInputWithAddNew-add-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+       + 
+      add new something
+    </Button>
+  </span>
+</div>
+`;
+
+exports[`<SelectInputWithAddNew> when the add new button is clicked renders AddNewBox with the right props mapping 1`] = `
+<div
+  id={undefined}
+>
+  <span
+    className="SelectInputWithAddNew-container"
+  >
+    <SelectInput
+      className="SelectInputWithAddNew-dropdown"
+      disabled={false}
+      dropUpIfOutOfViewport={false}
+      inputProps={undefined}
+      multi={false}
+      onChange={[MockFunction]}
+      options={Array []}
+      placeholder=""
+      selectType="select"
+      value={undefined}
+    />
+    <Button
+      bsStyle="link"
+      className="SelectInputWithAddNew-add-button"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+       + 
+      add something
+    </Button>
+    <AddNewBox
+      cancelButtonText="Cancel me"
+      fields={
+        <input
+          name="hi"
+        />
+      }
+      inputId="someId"
+      name="something"
+      onCancel={[Function]}
+      onSave={[Function]}
+      saveButtonText="Add something"
+    />
+  </span>
+</div>
+`;

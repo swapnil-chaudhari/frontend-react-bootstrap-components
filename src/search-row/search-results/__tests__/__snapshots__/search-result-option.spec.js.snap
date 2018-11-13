@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResultOption> when searching for artists with search query renders selected item with highlighted query 1`] = `
+<div
+  className="Search"
+  onClick={[Function]}
+  onMouseMove={[Function]}
+  role="option"
+>
+  
+  <div
+    className="SearchResultsItem-isrc"
+  >
+    
+  </div>
+  <div
+    className="SearchResultsItem-trackTitle"
+  >
+    
+  </div>
+  <div
+    className="SearchResultsItem-artist"
+  >
+    <span>
+      <span>
+        Hi-
+      </span>
+      <span
+        className="Select-option-highlighted"
+      >
+        Fi
+      </span>
+    </span>
+    <span>
+      <span>
+        
+      </span>
+    </span>
+     
+    
+  </div>
+</div>
+`;
+
+exports[`<SearchResultOption> when searching for artists without search query renders selected item without highlighting 1`] = `
+<div
+  className="Search"
+  onClick={[Function]}
+  onMouseMove={[Function]}
+  role="option"
+>
+  
+  <div
+    className="SearchResultsItem-isrc"
+  >
+    
+  </div>
+  <div
+    className="SearchResultsItem-trackTitle"
+  >
+    
+  </div>
+  <div
+    className="SearchResultsItem-artist"
+  >
+    Hi-Fi
+     
+    
+  </div>
+</div>
+`;
+
+exports[`<SearchResultOption> when searching for tracks with search query renders selected item with highlighting 1`] = `
+<div
+  className="Search"
+  onClick={[Function]}
+  onMouseMove={[Function]}
+  role="option"
+>
+  <div
+    className="SearchResultsItem-image"
+  >
+    <img
+      className="TrackAlbumArt"
+      role="presentation"
+      src="https://google.com/images/hi-fi"
+    />
+  </div>
+  <div
+    className="SearchResultsItem-isrc"
+  >
+    BN0123456789
+  </div>
+  <div
+    className="SearchResultsItem-trackTitle"
+  >
+    Nam ne dano
+  </div>
+  <div
+    className="SearchResultsItem-artist"
+  >
+    <span>
+      <span>
+        Hi-
+      </span>
+      <span
+        className="Select-option-highlighted"
+      >
+        Fi
+      </span>
+    </span>
+    <span>
+      <span>
+        
+      </span>
+    </span>
+     
+    <span>
+       · 
+      Aromati vanili
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SearchResultOption> when searching for tracks with selected item track renders component with image and content 1`] = `
+<div
+  className="Search"
+  onClick={[Function]}
+  onMouseMove={[Function]}
+  role="option"
+>
+  <div
+    className="SearchResultsItem-image"
+  >
+    <img
+      className="TrackAlbumArt"
+      role="presentation"
+      src="https://google.com/images/hi-fi"
+    />
+  </div>
+  <div
+    className="SearchResultsItem-isrc"
+  >
+    BN0123456789
+  </div>
+  <div
+    className="SearchResultsItem-trackTitle"
+  >
+    Nam ne dano
+  </div>
+  <div
+    className="SearchResultsItem-artist"
+  >
+    Hi-Fi
+     
+    <span>
+       · 
+      Aromati vanili
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<SearchResultOption> when searching for tracks without image link in result item renders empty image placeholder 1`] = `
+<div
+  className="Search"
+  onClick={[Function]}
+  onMouseMove={[Function]}
+  role="option"
+>
+  <div
+    className="SearchResultsItem-image"
+  >
+    <div
+      className="SearchResultsItem-image-placeholder"
+    />
+  </div>
+  <div
+    className="SearchResultsItem-isrc"
+  >
+    BN0123456789
+  </div>
+  <div
+    className="SearchResultsItem-trackTitle"
+  >
+    Nam ne dano
+  </div>
+  <div
+    className="SearchResultsItem-artist"
+  >
+    Hi-Fi
+     
+    <span>
+       · 
+      Aromati vanili
+    </span>
+  </div>
+</div>
+`;

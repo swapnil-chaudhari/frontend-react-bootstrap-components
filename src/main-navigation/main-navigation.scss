@@ -1,0 +1,33 @@
+/* stylelint-disable selector-class-pattern, max-nesting-depth, selector-no-type */
+.MainNavigation {
+    .header-main {
+        text-align: inherit;
+
+        li[role="presentation"] {
+            display: inline-block;
+
+            & > a {
+                padding: 0 15px;
+            }
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-toggle {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        .nav {
+            float: left;
+        }
+
+        .navigation-right {
+            float: right;
+        }
+    }
+}
+
+/* stylelint-enable selector-class-pattern, max-nesting-depth, selector-no-type */

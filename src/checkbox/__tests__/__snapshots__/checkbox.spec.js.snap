@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox> when it renders has proper markup 1`] = `
+<div
+  className="checkbox"
+>
+  <input
+    checked={true}
+    className="checkbox-input disabled"
+    disabled={true}
+    id="737884497096766615"
+    onChange={[Function]}
+    onClick={undefined}
+    readOnly={undefined}
+    type="checkbox"
+  />
+  <label
+    className=""
+    htmlFor="737884497096766615"
+    onClick={undefined}
+  />
+</div>
+`;

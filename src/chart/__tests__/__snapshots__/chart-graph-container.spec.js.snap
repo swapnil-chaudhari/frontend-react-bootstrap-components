@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartGraphContainer> when it renders with data has proper markup 1`] = `
+<div
+  className="ChartInteractive"
+>
+  <ChartContainer
+    height={400}
+  >
+    <Graph
+      circleRadius={6}
+      circleYOffset={2}
+      colors={
+        Array [
+          "#4B3DA3",
+          "#419B86",
+          "#026EAD",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "activity_datetime": "2017-10-06",
+            "facebook": Object {
+              "metric_value": 200,
+            },
+            "instagram": Object {
+              "metric_value": 40,
+            },
+            "spotify": Object {
+              "metric_value": 50,
+            },
+          },
+          Object {
+            "activity_datetime": "2017-10-08",
+            "facebook": Object {
+              "metric_value": 150,
+            },
+            "instagram": Object {
+              "metric_value": 40,
+            },
+            "spotify": Object {
+              "metric_value": 100,
+            },
+          },
+          Object {
+            "activity_datetime": "2017-10-13",
+            "facebook": Object {
+              "metric_value": 350,
+            },
+            "instagram": Object {
+              "metric_value": 30,
+            },
+            "spotify": Object {
+              "metric_value": 50,
+            },
+          },
+        ]
+      }
+      days={7}
+      height={400}
+      hoverOnDate={[Function]}
+      hoverSpotOffset={8}
+      hoverType="accumulation"
+      isLoading={false}
+      leftTooltipOffset={3}
+      noDataText="-"
+      sourceTypes={
+        Array [
+          "facebook",
+          "spotify",
+          "instagram",
+        ]
+      }
+      tooltipHeight={25}
+      topTooltipOffset={15}
+      xAxisDateFormat="MMM D"
+      xAxisDateFormatHover="dddd, MMMM D"
+      xAxisKey="activity_datetime"
+      xAxisOffset={50}
+      yAxisKey="metric_value"
+      yAxisOffset={-25}
+    />
+  </ChartContainer>
+</div>
+`;
+
+exports[`<ChartGraphContainer> when it renders with loader has proper markup with loader 1`] = `
+<div
+  className="ChartInteractive"
+>
+  <ChartContainer
+    height={400}
+  >
+    <Graph
+      circleRadius={6}
+      circleYOffset={2}
+      colors={
+        Array [
+          "#4B3DA3",
+          "#419B86",
+          "#026EAD",
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "activity_datetime": "2017-10-06",
+            "facebook": Object {
+              "metric_value": 200,
+            },
+            "instagram": Object {
+              "metric_value": 40,
+            },
+            "spotify": Object {
+              "metric_value": 50,
+            },
+          },
+          Object {
+            "activity_datetime": "2017-10-08",
+            "facebook": Object {
+              "metric_value": 150,
+            },
+            "instagram": Object {
+              "metric_value": 40,
+            },
+            "spotify": Object {
+              "metric_value": 100,
+            },
+          },
+          Object {
+            "activity_datetime": "2017-10-13",
+            "facebook": Object {
+              "metric_value": 350,
+            },
+            "instagram": Object {
+              "metric_value": 30,
+            },
+            "spotify": Object {
+              "metric_value": 50,
+            },
+          },
+        ]
+      }
+      days={7}
+      height={400}
+      hoverOnDate={[Function]}
+      hoverSpotOffset={8}
+      hoverType="accumulation"
+      isLoading={true}
+      leftTooltipOffset={3}
+      noDataText="-"
+      sourceTypes={
+        Array [
+          "facebook",
+          "spotify",
+          "instagram",
+        ]
+      }
+      tooltipHeight={25}
+      topTooltipOffset={15}
+      xAxisDateFormat="MMM D"
+      xAxisDateFormatHover="dddd, MMMM D"
+      xAxisKey="activity_datetime"
+      xAxisOffset={50}
+      yAxisKey="metric_value"
+      yAxisOffset={-25}
+    />
+  </ChartContainer>
+  <div
+    className="Graph-indicator-container"
+  >
+    <LoadingIndicator />
+  </div>
+</div>
+`;

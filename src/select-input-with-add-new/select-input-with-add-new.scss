@@ -1,0 +1,34 @@
+@import "src/styles/variables";
+
+.SelectInputWithAddNew {
+
+    &-container {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &-dropdown {
+        flex: 1;
+        min-width: 265px;
+    }
+
+    &-add-button {
+        flex: 1;
+        max-width: 160px;
+    }
+
+    &-new-box {
+        background-color: $blue_100;
+        border: 1px solid $grey_200;
+        border-radius: 3px;
+        flex: 0 0 100%;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    &-button-wrapper {
+        text-align: center;
+    }
+
+}

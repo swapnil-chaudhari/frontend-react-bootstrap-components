@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupedBarChart> when it renders has proper markup 1`] = `
+<div
+  className="GroupedBarChart chart"
+>
+  <svg
+    height={200}
+    width={200}
+  >
+    <GroupedBarChartYaxis
+      height={200}
+      scale={[Function]}
+      ticks={
+        Array [
+          1,
+          2,
+        ]
+      }
+      ticksFormat={[Function]}
+      width={200}
+      xOffset={0}
+      yOffset={0}
+    />
+    <g
+      transform="translate(0, 0)"
+    >
+      <g
+        className="GroupedBarChart-bar-holder"
+      >
+        <rect
+          className="GroupedBarChart-bar-#1
+                                                 GroupedBarChart-bar-i0"
+          height={100}
+          width={62}
+          x={4}
+          y={100}
+        />
+        <text
+          className="GroupedBarChart-bar-value"
+          x={35}
+          y={100}
+        >
+          1
+        </text>
+      </g>
+      <g
+        className="GroupedBarChart-bar-holder"
+      >
+        <rect
+          className="GroupedBarChart-bar-#1
+                                                 GroupedBarChart-bar-i1"
+          height={200}
+          width={62}
+          x={69}
+          y={0}
+        />
+        <text
+          className="GroupedBarChart-bar-value GroupedBarChart-bar-value-last"
+          x={100}
+          y={0}
+        >
+          2
+        </text>
+      </g>
+      <text
+        className="GroupedBarChartXaxis-label"
+        x={62}
+        y={200}
+      >
+        #1
+      </text>
+    </g>
+    <GroupedBarChartXaxis
+      height={200}
+      width={200}
+      xOffset={0}
+      yOffset={0}
+    />
+  </svg>
+</div>
+`;

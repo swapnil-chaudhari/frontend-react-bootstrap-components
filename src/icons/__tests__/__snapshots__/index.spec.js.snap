@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`icons <AAN> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-aan"
+  id="icon-aan"
+/>
+`;
+
+exports[`icons <Advertise> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-advertise"
+  id="icon-advertise"
+/>
+`;
+
+exports[`icons <AppleMusic> renders an SVG with the correct prop.id and tags 1`] = `
+<svg
+  className="Icons-apple-music"
+  id="icon-apple-music"
+  viewBox="0 0 24 24"
+>
+  <defs>
+    <linearGradient
+      id="apple-music-linear-gradient"
+      x1="41.5902151%"
+      x2="75.9989248%"
+      y1="6.80428608%"
+      y2="77.1777806%"
+    >
+      <stop
+        offset="0%"
+        stopColor="#FF505C"
+      />
+      <stop
+        offset="100%"
+        stopColor="#38ADFB"
+      />
+    </linearGradient>
+  </defs>
+  <g>
+    <path
+      d="M6,0 L18,0 C21.3137085,-6.08718376e-16 24,2.6862915 24,6 L24,18 C24,21.3137085 21.3137085,24 18,24 L6,24 C2.6862915,24 4.05812251e-16,21.3137085 0,18 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z"
+      fill="#D9D2D0"
+    />
+    <path
+      d="M6,1 L18,1 C20.7614237,1 23,3.23857625 23,6 L23,18 C23,20.7614237 20.7614237,23 18,23 L6,23 C3.23857625,23 1,20.7614237 1,18 L1,6 C1,3.23857625 3.23857625,1 6,1 Z"
+      fill="#FFFFFF"
+    />
+    <path
+      d="M17.1082436,15.5069523 C17.1082436,15.8893303 17.0567396,16.2654654 16.8866206,16.612727 C16.6212973,17.1542991 16.1881961,17.4945375 15.6138493,17.6576334 C15.294681,17.7489359 14.9677091,17.8012202 14.633714,17.8160471 C13.7612686,17.8574064 13.0074384,17.265891 12.8513659,16.4082719 C12.7218257,15.7004824 13.0612834,14.9201192 13.8049689,14.5556896 C14.1015067,14.4089813 14.4183339,14.3270431 14.7375022,14.2583712 C15.0839831,14.1842367 15.4328052,14.1179058 15.7769451,14.0383087 C16.0282218,13.9805619 16.1959998,13.8276107 16.245943,13.5654086 C16.256868,13.5076617 16.2615502,13.4475738 16.2615502,13.3882662 C16.2623306,11.7245318 16.2623306,10.0615778 16.2607699,8.39862372 C16.2607699,8.34165721 16.2514055,8.28391033 16.2381393,8.2292849 C16.2014623,8.09116061 16.1007955,8.00688138 15.9587695,8.01468502 C15.8128418,8.02326901 15.6676943,8.04667991 15.5241076,8.07555335 C14.8264635,8.21289728 14.1311605,8.35414302 13.4342967,8.4946084 C12.7241668,8.63741487 12.0124762,8.78178207 11.3015659,8.9253689 C10.8817309,9.01042849 10.4611154,9.09470772 10.0412804,9.17976731 C10.0264535,9.18288876 10.0116266,9.18757094 9.9975801,9.19147276 C9.74396227,9.26170545 9.65187949,9.37797957 9.64017405,9.64018161 C9.63861333,9.67998014 9.63939369,9.71977866 9.63939369,9.76035755 C9.63861333,12.1451476 9.63939369,14.5307179 9.63783297,16.9155079 C9.63783297,17.300227 9.59569339,17.6810443 9.44040124,18.039231 C9.18522269,18.6276249 8.73495351,18.9936152 8.12549036,19.1707577 C7.80398099,19.2636209 7.47388764,19.3166856 7.14067283,19.328391 C6.26198461,19.3611663 5.53234564,18.7774546 5.3809553,17.9128121 C5.25063476,17.1675653 5.59165319,16.367693 6.43756619,16.0095062 C6.76531845,15.8721623 7.10867797,15.7964671 7.45281785,15.7246737 C7.71580003,15.6692679 7.97956257,15.6193246 8.24176438,15.5631385 C8.59214716,15.4874432 8.77553236,15.2666005 8.79035925,14.9084137 C8.79191997,14.8615919 8.79113961,14.8171112 8.79113961,14.7710698 C8.79113961,12.0569665 8.79113961,9.34286322 8.79270033,6.6295403 C8.79270033,6.51638763 8.80440577,6.40011351 8.83171846,6.29008229 C8.89570819,6.02866061 9.08143447,5.87961124 9.33115049,5.81484109 C9.56525925,5.75397276 9.80326982,5.71183314 10.0405,5.66345062 C10.7123922,5.52766742 11.3850647,5.39266459 12.0561765,5.25766175 C12.7506991,5.11719637 13.4452218,4.97751135 14.1389641,4.83704597 C14.7523291,4.71296822 15.3664744,4.58732974 15.9814001,4.46637344 C16.1827336,4.42657491 16.3864082,4.38599603 16.5893025,4.3696084 C16.8733544,4.34697787 17.0684451,4.52568104 17.0973185,4.81129398 C17.1043418,4.87918558 17.1082436,4.94785755 17.1082436,5.01652951 C17.1098043,6.76844495 17.1098043,8.51958002 17.1090239,10.2707151 C17.1090239,12.0163876 17.1098043,13.7628405 17.1082436,15.5069523 Z"
+      fill="url(#apple-music-linear-gradient)"
+    />
+  </g>
+</svg>
+`;
+
+exports[`icons <ArtworkEmpty> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-artwork-empty"
+  id="icon-artwork-empty"
+/>
+`;
+
+exports[`icons <Attention> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-attention"
+  id="icon-attention"
+/>
+`;
+
+exports[`icons <AudioDisabled> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-disabled"
+  id="icon-audio-disabled"
+/>
+`;
+
+exports[`icons <AudioEnabled> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-enabled"
+  id="icon-audio-enabled"
+/>
+`;
+
+exports[`icons <AudioPlayerMute> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-mute"
+  id="icon-audio-player-mute"
+/>
+`;
+
+exports[`icons <AudioPlayerNext> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-next"
+  id="icon-audio-player-next"
+/>
+`;
+
+exports[`icons <AudioPlayerNextLite> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-next-lite"
+  id="icon-audio-player-next-lite"
+/>
+`;
+
+exports[`icons <AudioPlayerPause> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-pause"
+  id="icon-audio-player-pause"
+/>
+`;
+
+exports[`icons <AudioPlayerPauseLite> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-pause-lite"
+  id="icon-audio-player-pause-lite"
+/>
+`;
+
+exports[`icons <AudioPlayerPlay> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-play"
+  id="icon-audio-player-play"
+/>
+`;
+
+exports[`icons <AudioPlayerPrevious> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-previous"
+  id="icon-audio-player-previous"
+/>
+`;
+
+exports[`icons <AudioPlayerPreviousLite> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-previous-lite"
+  id="icon-audio-player-previous-lite"
+/>
+`;
+
+exports[`icons <AudioPlayerVolume> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-audio-player-volume"
+  id="icon-audio-player-volume"
+/>
+`;
+
+exports[`icons <Calendar> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-calendar"
+  id="icon-calendar"
+/>
+`;
+
+exports[`icons <Camera> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-camera"
+  id="icon-camera"
+/>
+`;
+
+exports[`icons <Chevron> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-chevron"
+  id="icon-chevron"
+/>
+`;
+
+exports[`icons <CleanVersion> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-clean-version"
+  id="icon-clean-version"
+/>
+`;
+
+exports[`icons <Close> when it renders with a className prop renders an <Icon> with the className prop 1`] = `
+<Icon
+  className="Icons-close test-class-name"
+  id="icon-close"
+  onClick={undefined}
+/>
+`;
+
+exports[`icons <Close> when it renders with no props renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-close"
+  id="icon-close"
+  onClick={undefined}
+/>
+`;
+
+exports[`icons <CompleteCheckmark> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-complete-checkmark"
+  id="icon-complete-checkmark"
+/>
+`;
+
+exports[`icons <Digital> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-digital"
+  id="icon-digital"
+/>
+`;
+
+exports[`icons <DigitalAudio> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-digital-audio"
+  id="icon-digital-audio"
+/>
+`;
+
+exports[`icons <DownDirectionArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-down-direction-arrow"
+  id="icon-down-direction-arrow"
+/>
+`;
+
+exports[`icons <DownloadBox /> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-download-box"
+  id="icon-download-box"
+/>
+`;
+
+exports[`icons <Edit> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-edit"
+  id="icon-edit"
+/>
+`;
+
+exports[`icons <Error404> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-error-404"
+  id="icon-error-404"
+/>
+`;
+
+exports[`icons <Explicit> when it renders with a style class renders an <Icon> the supplied style class 1`] = `
+<Icon
+  className="Icons-explicit test-class"
+  id="icon-explicit"
+/>
+`;
+
+exports[`icons <Explicit> when it renders with required props renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-explicit"
+  id="icon-explicit"
+/>
+`;
+
+exports[`icons <ExternalLink> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-external-link"
+  id="icon-external-link"
+/>
+`;
+
+exports[`icons <Facebook> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-facebook"
+  id="icon-facebook"
+/>
+`;
+
+exports[`icons <FilledChevronDown> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-filled-chevron-down"
+  id="icon-filled-chevron-down"
+/>
+`;
+
+exports[`icons <FilledChevronUp> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-filled-chevron-up"
+  id="icon-filled-chevron-up"
+/>
+`;
+
+exports[`icons <Film> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-film"
+  id="icon-film"
+/>
+`;
+
+exports[`icons <Gear> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-gear"
+  id="icon-gear"
+/>
+`;
+
+exports[`icons <GoToCatalog> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-go-to-catalog"
+  id="icon-go-to-catalog"
+/>
+`;
+
+exports[`icons <History> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-history"
+  id="icon-history"
+/>
+`;
+
+exports[`icons <ImportArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-import-arrow"
+  id="icon-import-arrow"
+/>
+`;
+
+exports[`icons <IncompleteAlert> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-incomplete-alert"
+  id="icon-attention"
+/>
+`;
+
+exports[`icons <Info> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-info"
+  id="icon-info"
+/>
+`;
+
+exports[`icons <Instagram /> renders an SVG with the correct prop.id and tags 1`] = `
+<svg
+  className="Icons-instagram"
+  id="icon-instagram"
+  viewBox="0 0 128 128"
+>
+  <g
+    id="svg-instagram-container"
+  >
+    <g
+      id="svg-instagram"
+    >
+      <rect
+        clipRule="evenodd"
+        fill="none"
+        fillRule="evenodd"
+        height="16"
+        width="16"
+      />
+      <radialGradient
+        cx="19.1111"
+        cy="128.4444"
+        gradientUnits="userSpaceOnUse"
+        id="svg-instagram-radial"
+        r="163.5519"
+      >
+        <stop
+          offset="0"
+          style={
+            Object {
+              "stopColor": "#FFB140",
+            }
+          }
+        />
+        <stop
+          offset="0.2559"
+          style={
+            Object {
+              "stopColor": "#FF5445",
+            }
+          }
+        />
+        <stop
+          offset="0.599"
+          style={
+            Object {
+              "stopColor": "#FC2B82",
+            }
+          }
+        />
+        <stop
+          offset="1"
+          style={
+            Object {
+              "stopColor": "#8E40B7",
+            }
+          }
+        />
+      </radialGradient>
+      <path
+        clipRule="evenodd"
+        d="M105.843,29.837 c0,4.242-3.439,7.68-7.68,7.68c-4.241,0-7.68-3.438-7.68-7.68c0-4.242,3.439-7.68,7.68-7.68 C102.405,22.157,105.843,25.595,105.843,29.837z M64,85.333c-11.782,0-21.333-9.551-21.333-21.333    c0-11.782,9.551-21.333,21.333-21.333c11.782,0,21.333,9.551,21.333,21.333C85.333,75.782,75.782,85.333,64,85.333z M64,31.135    c-18.151,0-32.865,14.714-32.865,32.865c0,18.151,14.714,32.865,32.865,32.865c18.151,0,32.865-14.714,32.865-32.865    C96.865,45.849,82.151,31.135,64,31.135z M64,11.532c17.089,0,19.113,0.065,25.861,0.373c6.24,0.285,9.629,1.327,11.884,2.204    c2.987,1.161,5.119,2.548,7.359,4.788c2.24,2.239,3.627,4.371,4.788,7.359c0.876,2.255,1.919,5.644,2.204,11.884    c0.308,6.749,0.373,8.773,0.373,25.862c0,17.089-0.065,19.113-0.373,25.861c-0.285,6.24-1.327,9.629-2.204,11.884    c-1.161,2.987-2.548,5.119-4.788,7.359c-2.239,2.24-4.371,3.627-7.359,4.788c-2.255,0.876-5.644,1.919-11.884,2.204    c-6.748,0.308-8.772,0.373-25.861,0.373c-17.09,0-19.114-0.065-25.862-0.373c-6.24-0.285-9.629-1.327-11.884-2.204    c-2.987-1.161-5.119-2.548-7.359-4.788c-2.239-2.239-3.627-4.371-4.788-7.359c-0.876-2.255-1.919-5.644-2.204-11.884    c-0.308-6.749-0.373-8.773-0.373-25.861c0-17.089,0.065-19.113,0.373-25.862c0.285-6.24,1.327-9.629,2.204-11.884    c1.161-2.987,2.548-5.119,4.788-7.359c2.239-2.24,4.371-3.627,7.359-4.788c2.255-0.876,5.644-1.919,11.884-2.204    C44.887,11.597,46.911,11.532,64,11.532z M64,0C46.619,0,44.439,0.074,37.613,0.385C30.801,0.696,26.148,1.778,22.078,3.36    c-4.209,1.635-7.778,3.824-11.336,7.382C7.184,14.3,4.995,17.869,3.36,22.078c-1.582,4.071-2.664,8.723-2.975,15.535    C0.074,44.439,0,46.619,0,64c0,17.381,0.074,19.561,0.385,26.387c0.311,6.812,1.393,11.464,2.975,15.535    c1.635,4.209,3.824,7.778,7.382,11.336c3.558,3.558,7.127,5.746,11.336,7.382c4.071,1.582,8.723,2.664,15.535,2.975    C44.439,127.926,46.619,128,64,128c17.381,0,19.561-0.074,26.387-0.385c6.812-0.311,11.464-1.393,15.535-2.975    c4.209-1.636,7.778-3.824,11.336-7.382c3.558-3.558,5.746-7.127,7.382-11.336c1.582-4.071,2.664-8.723,2.975-15.535    C127.926,83.561,128,81.381,128,64c0-17.381-0.074-19.561-0.385-26.387c-0.311-6.812-1.393-11.464-2.975-15.535    c-1.636-4.209-3.824-7.778-7.382-11.336c-3.558-3.558-7.127-5.746-11.336-7.382c-4.071-1.582-8.723-2.664-15.535-2.975 C83.561,0.074,81.381,0,64,0z"
+        fill="url(#svg-instagram-radial)"
+        fillRule="evenodd"
+        id="Instagram-svg"
+      />
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`icons <LeftPaginationArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-left-pagination-arrow"
+  id="icon-left-pagination-arrow"
+/>
+`;
+
+exports[`icons <LoadingArrows> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-loading-arrows"
+  id="icon-loading-arrows"
+/>
+`;
+
+exports[`icons <LoadingRing> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-loading-ring"
+  id="icon-loading-ring"
+/>
+`;
+
+exports[`icons <Logo> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-logo"
+  id="icon-logo"
+/>
+`;
+
+exports[`icons <LogoAndName> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-logo-and-name"
+  id="icon-logo-and-name"
+/>
+`;
+
+exports[`icons <Maintenance> renders an SVG with the correct prop.id and tags 1`] = `
+<svg
+  className="Icons-maintenance"
+  id="icon-maintenance"
+  viewBox="0 0 220 131"
+>
+  <defs>
+    <linearGradient
+      id="linearGradient-1"
+      x1="129.547896%"
+      x2="0%"
+      y1="130.6055%"
+      y2="0%"
+    >
+      <stop
+        offset="0%"
+        stopColor="#33448A"
+      />
+      <stop
+        offset="100%"
+        stopColor="#026EAD"
+      />
+    </linearGradient>
+    <linearGradient
+      id="linearGradient-2"
+      x1="0%"
+      x2="100%"
+      y1="0%"
+      y2="100%"
+    >
+      <stop
+        offset="0%"
+        stopColor="#F6DB38"
+      />
+      <stop
+        offset="100%"
+        stopColor="#FF893E"
+      />
+    </linearGradient>
+  </defs>
+  <g
+    fill="none"
+    fillRule="evenodd"
+    id="5a"
+    stroke="none"
+    strokeWidth="1"
+    transform="translate(-594.000000, -283.000000)"
+  >
+    <g
+      id="Group"
+      transform="translate(288.000000, 209.000000)"
+    >
+      <g
+        id="Group-3"
+        transform="translate(118.000000, 75.000000)"
+      >
+        <g
+          id="Group-2"
+          transform="translate(189.000000, 0.000000)"
+        >
+          <path
+            d="M19.6967192,25.5 C22.4581429,25.5 24.6967192,23.2614237 24.6967192,20.5 C24.6967192,17.7385763 22.4581429,15.5 19.6967192,15.5 C16.9352954,15.5 14.6967192,17.7385763 14.6967192,20.5 C14.6967192,23.2614237 16.9352954,25.5 19.6967192,25.5 Z M19.6967192,65.5 C22.4581429,65.5 24.6967192,63.2614237 24.6967192,60.5 C24.6967192,57.7385763 22.4581429,55.5 19.6967192,55.5 C16.9352954,55.5 14.6967192,57.7385763 14.6967192,60.5 C14.6967192,63.2614237 16.9352954,65.5 19.6967192,65.5 Z M19.6967192,105.5 C22.4581429,105.5 24.6967192,103.261424 24.6967192,100.5 C24.6967192,97.7385763 22.4581429,95.5 19.6967192,95.5 C16.9352954,95.5 14.6967192,97.7385763 14.6967192,100.5 C14.6967192,103.261424 16.9352954,105.5 19.6967192,105.5 Z M0.5,5.50532213 C0.5,2.74095905 2.73171446,0.5 5.49659807,0.5 L169.503402,0.5 C172.262947,0.5 174.5,2.73628439 174.5,5.50532213 L174.5,35.4946779 C174.5,38.259041 172.268286,40.5 169.503402,40.5 L5.49659807,40.5 C2.73705315,40.5 0.5,38.2637156 0.5,35.4946779 L0.5,5.50532213 Z M0.5,45.5053221 C0.5,42.740959 2.73171446,40.5 5.49659807,40.5 L169.503402,40.5 C172.262947,40.5 174.5,42.7362844 174.5,45.5053221 L174.5,75.4946779 C174.5,78.259041 172.268286,80.5 169.503402,80.5 L5.49659807,80.5 C2.73705315,80.5 0.5,78.2637156 0.5,75.4946779 L0.5,45.5053221 Z M0.5,85.5053221 C0.5,82.740959 2.73171446,80.5 5.49659807,80.5 L169.503402,80.5 C172.262947,80.5 174.5,82.7362844 174.5,85.5053221 L174.5,115.494678 C174.5,118.259041 172.268286,120.5 169.503402,120.5 L5.49659807,120.5 C2.73705315,120.5 0.5,118.263716 0.5,115.494678 L0.5,85.5053221 Z M157.5,12 L157.5,28 L157.5,12 Z M147.5,12 L147.5,28 L147.5,12 Z M137.5,12 L137.5,28 L137.5,12 Z M127.5,12 L127.5,28 L127.5,12 Z"
+            id="Combined-Shape"
+            stroke="url(#linearGradient-1)"
+            strokeLinecap="square"
+            strokeWidth="3"
+          />
+          <circle
+            cx="163.5"
+            cy="75.5"
+            fill="#093C5A"
+            id="Oval-4"
+            r="40.5"
+          />
+          <path
+            d="M183.997,40.3626 L184,71.9896 L166,71.9896 L166,40.3636 C153.829,44.1866 145,55.5566 145,68.9896 C145,82.4186 153.823,93.7866 165.988,97.6126 L166,134.9896 L184,134.9896 L183.987,97.6206 C196.165,93.8016 205,82.4276 205,68.9896 C205,55.5556 196.17,44.1846 183.997,40.3626 Z"
+            id="Page-1"
+            stroke="url(#linearGradient-2)"
+            strokeWidth="3"
+            transform="translate(176.000000, 86.494800) rotate(-45.000000) translate(-176.000000, -86.494800) "
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
+
+exports[`icons <NewProduct> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-new-product"
+  id="icon-new-product"
+/>
+`;
+
+exports[`icons <Pdf> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-pdf"
+  id="icon-pdf"
+/>
+`;
+
+exports[`icons <Physical> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-physical"
+  id="icon-physical"
+/>
+`;
+
+exports[`icons <PhysicalAudio> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-physical-audio"
+  id="icon-physical-audio"
+/>
+`;
+
+exports[`icons <Play /> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-play"
+  id="icon-play"
+  onClick={undefined}
+/>
+`;
+
+exports[`icons <PlaylistPlaceholder> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-playlist-placeholder"
+  id="icon-playlist-placeholder"
+/>
+`;
+
+exports[`icons <Plus> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-plus"
+  id="icon-plus"
+/>
+`;
+
+exports[`icons <Refresh> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-refresh"
+  id="icon-refresh"
+/>
+`;
+
+exports[`icons <RightDirectionArrow> renders an <Icon> with correct prop.id 1`] = `
+<Icon
+  className="Icons-right-direction-arrow"
+  id="icon-right-direction-arrow"
+/>
+`;
+
+exports[`icons <RightPaginationArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-right-pagination-arrow"
+  id="icon-right-pagination-arrow"
+/>
+`;
+
+exports[`icons <RoyaltyShareLogo> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-royalty-share-logo"
+  id="icon-royalty-share-logo"
+/>
+`;
+
+exports[`icons <ServerError> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-server-error"
+  id="icon-server-error"
+/>
+`;
+
+exports[`icons <Spotify> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-spotify"
+  id="icon-spotify"
+/>
+`;
+
+exports[`icons <StatusComplete> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-status-complete"
+  id="icon-status-complete"
+/>
+`;
+
+exports[`icons <StatusInProgress> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-status-in-progress"
+  id="icon-status-in-progress"
+/>
+`;
+
+exports[`icons <StatusRed> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-status-red"
+  id="icon-status-red"
+/>
+`;
+
+exports[`icons <StatusSubmitted> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-status-submitted"
+  id="icon-status-submitted"
+/>
+`;
+
+exports[`icons <Stop /> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-stop"
+  id="icon-stop"
+  onClick={undefined}
+/>
+`;
+
+exports[`icons <SuccessCheckmark> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-success-checkmark"
+  id="icon-success-checkmark"
+/>
+`;
+
+exports[`icons <ThreeDots> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-three-dots"
+  id="icon-three-dots"
+/>
+`;
+
+exports[`icons <ThreeRightDirectedArrows> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-three-right-directed-arrows"
+  id="icons-three-right-directed-arrows"
+/>
+`;
+
+exports[`icons <TracksCompleteCheckmark> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-tracks-complete-checkmark"
+  id="icon-tracks-complete-checkmark"
+/>
+`;
+
+exports[`icons <TracksEmpty> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-tracks-empty"
+  id="icon-tracks-empty"
+/>
+`;
+
+exports[`icons <TransparentLogo> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-transparent-logo"
+  id="icon-transparent-logo"
+/>
+`;
+
+exports[`icons <TrashCan> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-trash-can"
+  id="icon-trash-can"
+/>
+`;
+
+exports[`icons <Twitter> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-twitter"
+  id="icon-twitter"
+/>
+`;
+
+exports[`icons <UpAndDownArrows> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-up-and-down-arrows test-class"
+  id="icon-up-and-down-arrows"
+/>
+`;
+
+exports[`icons <UpDirectionArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-up-direction-arrow"
+  id="icon-up-direction-arrow"
+/>
+`;
+
+exports[`icons <Upload> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-upload"
+  id="icon-upload"
+/>
+`;
+
+exports[`icons <UploadArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-upload-arrow"
+  id="icon-upload-arrow"
+/>
+`;
+
+exports[`icons <Video> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-video"
+  id="icon-video"
+/>
+`;
+
+exports[`icons <ViewMoreNextArrow> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-view-more-next-arrow"
+  id="icon-view-more-next-arrow"
+/>
+`;
+
+exports[`icons <Xls> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-xls"
+  id="icon-xls"
+/>
+`;
+
+exports[`icons <YouTube> renders an <Icon> with the correct prop.id 1`] = `
+<Icon
+  className="Icons-youtube"
+  id="icon-youtube"
+/>
+`;

@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonsRow/> when it renders and equalWidth was set to false has buttons with style set to null 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={null}
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      Off limits
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={null}
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      No touching
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders with a disabled prop passed renders a disabled button for each childElement passed 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={true}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      Off limits
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={true}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      No touching
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders with multi prop set to true has buttons with style set to null 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className="ButtonsRow-active"
+    disabled={false}
+    onClick={[Function]}
+    style={null}
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      Off limits
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={null}
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      No touching
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className="ButtonsRow-active"
+    disabled={false}
+    onClick={[Function]}
+    style={null}
+    type="button"
+  >
+    <Film />
+    <div
+      className="ButtonsRow-text"
+    >
+      Movie is our all
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders with onSelect passed renders button for each childElement passed 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    id="first-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      first button
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    id="second-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      second button
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders without a button className supplied renders the buttons without any classNames 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      Off limits
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      No touching
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders without a button id supplied renders the buttons without any ids 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      Off limits
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="default"
+    className=""
+    disabled={false}
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      No touching
+    </div>
+  </Button>
+</ButtonGroup>
+`;
+
+exports[`<ButtonsRow/> when it renders without onSelect renders button for each childElement passed 1`] = `
+<ButtonGroup
+  block={false}
+  bsClass="btn-group"
+  bsSize="large"
+  className="ButtonsRow ButtonsRow-custom"
+  justified={false}
+  vertical={false}
+>
+  <Button
+    bsSize="large"
+    bsStyle="danger"
+    className="first-button"
+    disabled={false}
+    id="first-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Digital />
+    <div
+      className="ButtonsRow-text"
+    >
+      first button
+    </div>
+  </Button>
+  <Button
+    bsSize="large"
+    bsStyle="danger"
+    className="ButtonsRow-active second-button"
+    disabled={false}
+    id="second-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "width": "50%",
+      }
+    }
+    type="button"
+  >
+    <Physical />
+    <div
+      className="ButtonsRow-text"
+    >
+      second button
+    </div>
+  </Button>
+</ButtonGroup>
+`;

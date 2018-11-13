@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListHeader> when it renders should contain ListHeader-global-selector 1`] = `
+<div
+  className="ListHeader-global-selector"
+>
+  <GlobalCountriesSelector
+    formatMessage={[Function]}
+    messages={Object {}}
+    onTerritorySelect={[Function]}
+  />
+</div>
+`;
+
+exports[`<ListHeader> when it renders should contain ListHeader-search 1`] = `
+<div
+  className="ListHeader-search"
+>
+  <ListHeaderSearch
+    formatMessage={[Function]}
+    messages={Object {}}
+    onCountrySearch={[Function]}
+    onCountrySearchCancel={undefined}
+    searchQuery=""
+  />
+</div>
+`;
+
+exports[`<ListHeader> when it renders should render CountriesCounter with selectedCountriesNumber and totalCountriesNumber from props 1`] = `
+<CountriesCounter
+  formatMessage={[Function]}
+  messages={Object {}}
+  selectedCountriesNumber={0}
+  totalCountriesNumber={0}
+/>
+`;

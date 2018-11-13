@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButtonGroup when it renders with a style class produces expected markup 1`] = `
+<div
+  className="RadioButtonGroup SnazzyComponent-radio-button-group"
+  id="applesauce"
+>
+  <RadioButton
+    checked={true}
+    name="applesauce"
+    onChange={[Function]}
+    value="chunky"
+  />
+  <RadioButton
+    checked={true}
+    name="applesauce"
+    onChange={[Function]}
+    value="chunky"
+  />
+</div>
+`;
+
+exports[`RadioButtonGroup when it renders with required props produces expected markup 1`] = `
+<div
+  className="RadioButtonGroup"
+  id="applesauce"
+>
+  <RadioButton
+    checked={true}
+    name="applesauce"
+    onChange={[Function]}
+    value="chunky"
+  />
+  <RadioButton
+    checked={true}
+    name="applesauce"
+    onChange={[Function]}
+    value="chunky"
+  />
+</div>
+`;

@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchRow> with Artists as search type renders Artist search layout with a dropdown 1`] = `
+<div
+  className="Filters-search-wrapper Filters-search-row"
+>
+  <DropdownButton
+    id="Filters-search-wrapper-dropdown"
+    onSelect={[Function]}
+    title="artistsLabel"
+    withCaret={true}
+  >
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-artist"
+      disabled={false}
+      divider={false}
+      eventKey="artists"
+      header={false}
+    >
+      artistsLabel
+    </MenuItem>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={true}
+      header={false}
+    />
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-track"
+      disabled={false}
+      divider={false}
+      eventKey="tracks"
+      header={false}
+    >
+      tracksLabel
+    </MenuItem>
+  </DropdownButton>
+  <SearchResults
+    currentSearch=""
+    formatMessage={[Function]}
+    isLoading={false}
+    messages={
+      Object {
+        "artistsLabel": Object {
+          "defaultMessage": "artistsLabel",
+        },
+        "checkSpellingLabel": Object {
+          "defaultMessage": "checkSpellingLabel",
+        },
+        "noMatchLabel": Object {
+          "defaultMessage": "noMatchLabel",
+        },
+        "releaseNameLabel": Object {
+          "defaultMessage": "releaseNameLabel",
+        },
+        "releasedDateLabel": Object {
+          "defaultMessage": "releasedDateLabel",
+        },
+        "searchArtistsPlaceholderLabel": Object {
+          "defaultMessage": "searchArtistsPlaceholderLabel",
+        },
+        "searchErrorLabel": Object {
+          "defaultMessage": "searchErrorLabel",
+        },
+        "searchPlaceholderLabel": Object {
+          "defaultMessage": "searchPlaceholderLabel",
+        },
+        "searchResultsHeadingLabel": Object {
+          "defaultMessage": "searchResultsHeadingLabel",
+        },
+        "temporaryErrorLabel": Object {
+          "defaultMessage": "temporaryErrorLabel",
+        },
+        "tracksLabel": Object {
+          "defaultMessage": "tracksLabel",
+        },
+        "tryAgainLabel": Object {
+          "defaultMessage": "tryAgainLabel",
+        },
+      }
+    }
+    onChange={[Function]}
+    onInputChange={[Function]}
+    options={Array []}
+    searchError={null}
+    searchName="artists"
+    tags={Array []}
+  />
+</div>
+`;
+
+exports[`<SearchRow> with Tracks as search type and selected track renders proper component 1`] = `
+<div
+  className="Filters-search-wrapper Filters-search-row"
+>
+  <DropdownButton
+    id="Filters-search-wrapper-dropdown"
+    onSelect={[Function]}
+    title="tracksLabel"
+    withCaret={true}
+  >
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-artist"
+      disabled={false}
+      divider={false}
+      eventKey="artists"
+      header={false}
+    >
+      artistsLabel
+    </MenuItem>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={true}
+      header={false}
+    />
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-track"
+      disabled={false}
+      divider={false}
+      eventKey="tracks"
+      header={false}
+    >
+      tracksLabel
+    </MenuItem>
+  </DropdownButton>
+  <SearchResults
+    currentSearch="test"
+    formatMessage={[Function]}
+    isLoading={false}
+    messages={
+      Object {
+        "artistsLabel": Object {
+          "defaultMessage": "artistsLabel",
+        },
+        "checkSpellingLabel": Object {
+          "defaultMessage": "checkSpellingLabel",
+        },
+        "noMatchLabel": Object {
+          "defaultMessage": "noMatchLabel",
+        },
+        "releaseNameLabel": Object {
+          "defaultMessage": "releaseNameLabel",
+        },
+        "releasedDateLabel": Object {
+          "defaultMessage": "releasedDateLabel",
+        },
+        "searchArtistsPlaceholderLabel": Object {
+          "defaultMessage": "searchArtistsPlaceholderLabel",
+        },
+        "searchErrorLabel": Object {
+          "defaultMessage": "searchErrorLabel",
+        },
+        "searchPlaceholderLabel": Object {
+          "defaultMessage": "searchPlaceholderLabel",
+        },
+        "searchResultsHeadingLabel": Object {
+          "defaultMessage": "searchResultsHeadingLabel",
+        },
+        "temporaryErrorLabel": Object {
+          "defaultMessage": "temporaryErrorLabel",
+        },
+        "tracksLabel": Object {
+          "defaultMessage": "tracksLabel",
+        },
+        "tryAgainLabel": Object {
+          "defaultMessage": "tryAgainLabel",
+        },
+      }
+    }
+    onChange={[Function]}
+    onInputChange={[Function]}
+    options={
+      Array [
+        Object {
+          "artistId": "555344",
+          "artistName": "DavidQuinlan",
+          "artistNameFacet": "DavidQuinlan",
+          "imprint": "SOMLIVRE",
+          "isrc": "BRDVQ0800011",
+          "isrcId": "23204553",
+          "isrcName": "QuandoEstouaoSeuLado",
+          "labelId": "21786",
+          "labelName": "SomLivre",
+          "releaseId": "7891430104573",
+          "releaseName": "MeuChamado,MinhaVida",
+          "releaseNameFacet": "MeuChamado,MinhaVida",
+          "trackId": "21651861",
+          "trackName": "QuandoEstouaoSeuLado",
+          "trackNameFacet": "QuandoEstouaoSeuLado",
+          "trackType": "music",
+          "upc": "7891430104573",
+        },
+        Object {
+          "artistId": "5553",
+          "artistName": "DavidQuinlan",
+          "artistNameFacet": "DavidQuinlan",
+          "imprint": "SOMLIVRE",
+          "isrc": "BRDVQ0800012",
+          "isrcId": "23204553",
+          "isrcName": "QuandoEstouaoSeuLado",
+          "labelId": "21786",
+          "labelName": "SomLivre",
+          "releaseId": "7891430104573",
+          "releaseName": "MeuChamado,MinhaVida",
+          "releaseNameFacet": "MeuChamado,MinhaVida",
+          "trackId": "21651861",
+          "trackName": "QuandoEstouaoSeuLado",
+          "trackNameFacet": "QuandoEstouaoSeuLado",
+          "trackType": "music",
+          "upc": "7891430104574",
+        },
+      ]
+    }
+    searchError={null}
+    searchName="tracks"
+    tags={
+      Array [
+        Object {
+          "artistId": "555344",
+          "artistName": "DavidQuinlan",
+          "artistNameFacet": "DavidQuinlan",
+          "imprint": "SOMLIVRE",
+          "isrc": "BRDVQ0800011",
+          "isrcId": "23204553",
+          "isrcName": "QuandoEstouaoSeuLado",
+          "labelId": "21786",
+          "labelName": "SomLivre",
+          "releaseId": "7891430104573",
+          "releaseName": "MeuChamado,MinhaVida",
+          "releaseNameFacet": "MeuChamado,MinhaVida",
+          "trackId": "21651861",
+          "trackName": "QuandoEstouaoSeuLado",
+          "trackNameFacet": "QuandoEstouaoSeuLado",
+          "trackType": "music",
+          "upc": "7891430104573",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`<SearchRow> with Tracks as search type renders Tracks search layout without dropdown 1`] = `
+<div
+  className="Filters-search-wrapper Filters-search-row"
+>
+  <DropdownButton
+    id="Filters-search-wrapper-dropdown"
+    onSelect={[Function]}
+    title="tracksLabel"
+    withCaret={true}
+  >
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-artist"
+      disabled={false}
+      divider={false}
+      eventKey="artists"
+      header={false}
+    >
+      artistsLabel
+    </MenuItem>
+    <MenuItem
+      bsClass="dropdown"
+      disabled={false}
+      divider={true}
+      header={false}
+    />
+    <MenuItem
+      bsClass="dropdown"
+      className="Filters-dropdown-item-track"
+      disabled={false}
+      divider={false}
+      eventKey="tracks"
+      header={false}
+    >
+      tracksLabel
+    </MenuItem>
+  </DropdownButton>
+  <SearchResults
+    currentSearch=""
+    formatMessage={[Function]}
+    isLoading={false}
+    messages={
+      Object {
+        "artistsLabel": Object {
+          "defaultMessage": "artistsLabel",
+        },
+        "checkSpellingLabel": Object {
+          "defaultMessage": "checkSpellingLabel",
+        },
+        "noMatchLabel": Object {
+          "defaultMessage": "noMatchLabel",
+        },
+        "releaseNameLabel": Object {
+          "defaultMessage": "releaseNameLabel",
+        },
+        "releasedDateLabel": Object {
+          "defaultMessage": "releasedDateLabel",
+        },
+        "searchArtistsPlaceholderLabel": Object {
+          "defaultMessage": "searchArtistsPlaceholderLabel",
+        },
+        "searchErrorLabel": Object {
+          "defaultMessage": "searchErrorLabel",
+        },
+        "searchPlaceholderLabel": Object {
+          "defaultMessage": "searchPlaceholderLabel",
+        },
+        "searchResultsHeadingLabel": Object {
+          "defaultMessage": "searchResultsHeadingLabel",
+        },
+        "temporaryErrorLabel": Object {
+          "defaultMessage": "temporaryErrorLabel",
+        },
+        "tracksLabel": Object {
+          "defaultMessage": "tracksLabel",
+        },
+        "tryAgainLabel": Object {
+          "defaultMessage": "tryAgainLabel",
+        },
+      }
+    }
+    onChange={[Function]}
+    onInputChange={[Function]}
+    options={Array []}
+    searchError={null}
+    searchName="tracks"
+    tags={Array []}
+  />
+</div>
+`;

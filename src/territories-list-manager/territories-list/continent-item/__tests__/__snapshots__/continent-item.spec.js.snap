@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContinentItem> when it clicked should render territories and continents when clicked 1`] = `
+<div
+  className="ContinentItem"
+>
+  <div
+    className="checkbox ContinentItem-bordered ContinentItem-container"
+  >
+    <CountryItem
+      isDisabled={false}
+      isSelected={false}
+      onHandleSelect={[Function]}
+      territoryName="Asia (2)"
+    />
+    <span
+      className="ContinentItem-label ContinentItem-label-inverted ContinentItem-fullWidth"
+      onClick={[Function]}
+    >
+      <Chevron />
+    </span>
+  </div>
+  <div
+    className="checkbox ContinentItem-container ContinentItem-country"
+  >
+    <CountryItem
+      isDisabled={false}
+      isSelected={false}
+      onHandleSelect={[Function]}
+      territoryName="Afghanistan"
+    />
+  </div>
+  <div
+    className="checkbox ContinentItem-container ContinentItem-country"
+  >
+    <CountryItem
+      isDisabled={false}
+      isSelected={false}
+      onHandleSelect={[Function]}
+      territoryName="Nepal"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ContinentItem> when it renders should render only territories when collapsed 1`] = `
+<div
+  className="ContinentItem"
+>
+  <div
+    className="checkbox ContinentItem-container"
+  >
+    <CountryItem
+      isDisabled={false}
+      isSelected={false}
+      onHandleSelect={[Function]}
+      territoryName="Asia (2)"
+    />
+    <span
+      className="ContinentItem-label ContinentItem-fullWidth"
+      onClick={[Function]}
+    >
+      <Chevron />
+    </span>
+  </div>
+</div>
+`;

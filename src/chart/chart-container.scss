@@ -1,0 +1,8 @@
+@import "src/styles/variables.scss";
+
+.ChartContainer {
+    border: 1px solid $koala;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}

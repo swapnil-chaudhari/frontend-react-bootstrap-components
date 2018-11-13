@@ -1,0 +1,973 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectInput> when it renders with required properties renders a ReactSelect 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.className is supplied renders a ReactSelect with props.className 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select apples orange-kiwi"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.containerClassName is supplied renders a ReactSelect with props.containerClassName 1`] = `
+<div
+  className="apples orange-kiwi"
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.disabled is supplied and it is false renders a ReactSelect with props.disabled === false 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.disabled is supplied and it is true renders a ReactSelect with props.disabled === true 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={true}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.id is supplied renders a ReactSelect with props.id 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id="Select-123"
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": "Select-123",
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.inputProps and props.id are supplied and inputProps overrides id renders a ReactSelect with the id from inputProps 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id="the-thing"
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "form": "some-form",
+        "id": "another-thing",
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.inputProps and props.id are supplied renders a ReactSelect with those inputProps and the id 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id="the-thing"
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "form": "some-form",
+        "id": "the-thing",
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.inputProps is supplied and props.id is not renders a ReactSelect with those inputProps and an undefined id 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "form": "some-form",
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.options is supplied renders a ReactSelect with props.options 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={
+      Array [
+        Object {
+          "label": "Apple",
+          "value": 1,
+        },
+        Object {
+          "label": "Banana",
+          "value": 2,
+        },
+        Object {
+          "label": "Kiwi",
+          "value": 3,
+        },
+      ]
+    }
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.placeholder is supplied renders a ReactSelect with props.placeholder 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="placeholder"
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.required is passed renders a ReactSelect with required property 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={true}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when props.value is supplied renders a ReactSelect with props.value 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={45}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when qaid is supplied renders a ReactSelect with qaid 1`] = `
+<div
+  className={undefined}
+  id="SelectInput-qaid"
+>
+  <Select
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={undefined}
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;
+
+exports[`<SelectInput> when selectType is async renders a ReactSelect.Async 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <Async
+    autoload={true}
+    cache={Object {}}
+    className="SelectInput-select"
+    disabled={undefined}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    loadOptions={[Function]}
+    loadingPlaceholder="Loading..."
+    menuRenderer={undefined}
+    multi={false}
+    onChange={[Function]}
+    options={Array []}
+    placeholder={undefined}
+    required={undefined}
+    searchPromptText="Type to search"
+    tetherProps={undefined}
+    value={undefined}
+  >
+    [Function]
+  </Async>
+</div>
+`;
+
+exports[`<SelectInput> when selectType is tether renders a TetherSelect 1`] = `
+<div
+  className={undefined}
+  id={undefined}
+>
+  <TetherSelect
+    addLabelText="Add \\"{label}\\"?"
+    arrowRenderer={[Function]}
+    autosize={true}
+    backspaceRemoves={true}
+    backspaceToRemoveMessage="Press backspace to remove {label}"
+    className="SelectInput-select"
+    clearAllText="Clear all"
+    clearRenderer={[Function]}
+    clearValueText="Clear value"
+    clearable={true}
+    closeOnSelect={true}
+    deleteRemoves={true}
+    delimiter=","
+    disabled={false}
+    escapeClearsValue={true}
+    filterOptions={[Function]}
+    id={undefined}
+    ignoreAccents={true}
+    ignoreCase={true}
+    inputProps={
+      Object {
+        "id": undefined,
+      }
+    }
+    isLoading={false}
+    joinValues={false}
+    labelKey="label"
+    matchPos="any"
+    matchProp="any"
+    menuBuffer={0}
+    menuRenderer={[Function]}
+    multi={false}
+    noResultsText="No results found"
+    onBlurResetsInput={true}
+    onChange={[Function]}
+    onCloseResetsInput={true}
+    onSelectResetsInput={true}
+    openOnClick={true}
+    optionComponent={[Function]}
+    options={undefined}
+    pageSize={5}
+    placeholder="Select..."
+    required={false}
+    scrollMenuIntoView={true}
+    searchable={true}
+    simpleValue={false}
+    tabSelectsValue={true}
+    tetherProps={
+      Object {
+        "classPrefix": "prefix",
+      }
+    }
+    value={undefined}
+    valueComponent={[Function]}
+    valueKey="value"
+  />
+</div>
+`;

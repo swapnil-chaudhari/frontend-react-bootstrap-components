@@ -1,0 +1,103 @@
+@import "src/styles/variables";
+
+.DayPicker {
+    .DayPicker {
+        &-Month {
+            margin: 0;
+        }
+
+        &-NavButton--prev {
+            margin-right: calc(100% - 4rem);
+        }
+
+        &-Caption {
+            line-height: 3rem;
+            margin: 0 auto .5rem auto;
+            padding: 0;
+            text-align: center;
+            width: 200px;
+        }
+
+        &-Day {
+            padding: 1.25rem;
+        }
+
+        &-Footer {
+            border-top: 1px solid $grey_200;
+            margin-top: 1rem;
+            padding-bottom: .75rem;
+            padding-top: 1.25rem;
+            text-align: center;
+        }
+
+        &-TodayButton {
+            font-size: 14px;
+        }
+
+        &-Weekday {
+            color: $gorilla;
+            font-size: 14px;
+        }
+
+        &-Month-Picker {
+            margin-right: 10px;
+        }
+
+        &-Year-Picker,
+        &-Month-Picker {
+            display: inline-block;
+            vertical-align: middle;
+            width: auto;
+        }
+    }
+
+    &-left-arrow {
+        height: 26px;
+        left: 0;
+        position: absolute;
+        top: 2px;
+        width: 26px;
+    }
+
+    &-right-arrow {
+        height: 26px;
+        position: absolute;
+        right: 0;
+        top: 2px;
+        width: 26px;
+    }
+}
+
+.DayPickerInput {
+    position: relative;
+
+    &-input {
+        margin-bottom: 10px;
+    }
+
+    .Icons-chevron {
+        margin-left: 5px;
+    }
+
+    .Icons-calendar {
+        pointer-events: none;
+        position: absolute;
+        right: 5px;
+        top: 6px;
+    }
+
+    .DayPicker {
+        &-wrapper {
+            padding-bottom: 0;
+        }
+    }
+
+    .DayPickerInput {
+        &-Overlay {
+            border-radius: 3px;
+            box-shadow: 0 10px 25px 0 $overlay-shadow;
+            padding: 20px 20px 10px 20px;
+            z-index: 5;
+        }
+    }
+}

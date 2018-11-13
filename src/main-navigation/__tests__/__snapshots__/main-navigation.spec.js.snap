@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNavigation> when it renders with custom logo has proper markup 1`] = `
+<div
+  className="MainNavigation"
+>
+  <Uncontrolled(Navbar)
+    bsClass="navigation"
+    bsStyle="default"
+    className="header-main"
+    componentClass="header"
+  >
+    <NavbarHeader>
+      <NavbarBrand>
+        <a
+          className="logo"
+          href="/"
+        >
+          <div
+            className="custom-logo"
+          />
+        </a>
+      </NavbarBrand>
+    </NavbarHeader>
+    <Nav
+      bsClass="nav"
+      justified={false}
+      pullLeft={false}
+      pullRight={false}
+      stacked={false}
+    >
+      <NavItem
+        active={false}
+        disabled={false}
+        eventKey={1}
+        href="#"
+      >
+        Link
+      </NavItem>
+    </Nav>
+  </Uncontrolled(Navbar)>
+</div>
+`;
+
+exports[`<MainNavigation> when it renders with default logo has proper markup 1`] = `
+<div
+  className="MainNavigation"
+>
+  <Uncontrolled(Navbar)
+    bsClass="navigation"
+    bsStyle="default"
+    className="header-main"
+    componentClass="header"
+  >
+    <NavbarHeader>
+      <NavbarBrand>
+        <a
+          className="logo"
+          href="/accounting"
+        >
+          <Logo />
+        </a>
+      </NavbarBrand>
+    </NavbarHeader>
+    <Nav
+      bsClass="nav"
+      justified={false}
+      pullLeft={false}
+      pullRight={false}
+      stacked={false}
+    >
+      <NavItem
+        active={false}
+        disabled={false}
+        eventKey={1}
+        href="#"
+      >
+        Link
+      </NavItem>
+      <NavItem
+        active={false}
+        disabled={false}
+        eventKey={2}
+        href="#"
+      >
+        Link
+      </NavItem>
+      <NavDropdown
+        eventKey={3}
+        id="basic-nav-dropdown"
+        title="Dropdown"
+      >
+        <MenuItem
+          bsClass="dropdown"
+          disabled={false}
+          divider={false}
+          eventKey={3.1}
+          header={false}
+        >
+          Action
+        </MenuItem>
+        <MenuItem
+          bsClass="dropdown"
+          disabled={false}
+          divider={false}
+          eventKey={3.2}
+          header={false}
+        >
+          Another action
+        </MenuItem>
+        <MenuItem
+          bsClass="dropdown"
+          disabled={false}
+          divider={false}
+          eventKey={3.3}
+          header={false}
+        >
+          Something else here
+        </MenuItem>
+        <MenuItem
+          bsClass="dropdown"
+          disabled={false}
+          divider={true}
+          header={false}
+        />
+        <MenuItem
+          bsClass="dropdown"
+          disabled={false}
+          divider={false}
+          eventKey={3.3}
+          header={false}
+        >
+          Separated link
+        </MenuItem>
+      </NavDropdown>
+    </Nav>
+    <Nav
+      bsClass="nav"
+      justified={false}
+      pullLeft={false}
+      pullRight={true}
+      stacked={false}
+    >
+      <NavItem
+        active={false}
+        disabled={false}
+        eventKey={1}
+        href="#"
+      >
+        Link Right
+      </NavItem>
+      <NavItem
+        active={false}
+        disabled={false}
+        eventKey={2}
+        href="#"
+      >
+        Link Right
+      </NavItem>
+    </Nav>
+  </Uncontrolled(Navbar)>
+</div>
+`;

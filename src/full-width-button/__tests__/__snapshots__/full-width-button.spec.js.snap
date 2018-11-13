@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FullWidthButton/> when it renders should render add-button div 1`] = `
+<div
+  className="FullWidthButton"
+>
+  <div
+    className="FullWidthButton-button-container"
+  >
+    <Button
+      className="FullWidthButton-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Button
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<FullWidthButton/> when it renders with disabled true and with disabled layout should render add-button div without Button 1`] = `
+<div
+  className="FullWidthButton"
+>
+  <div
+    className="FullWidthButton-button-container"
+  >
+    <div
+      className="FullWidthButton-disabled-layout"
+    >
+      <span>
+        Some Custom Disabled Layout
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FullWidthButton/> when it renders with disabled true but without disabled layout should render add-button Button with disabled prop 1`] = `
+<div
+  className="FullWidthButton"
+>
+  <div
+    className="FullWidthButton-button-container"
+  >
+    <Button
+      className="FullWidthButton-button"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Button
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`<FullWidthButton/> when it renders with note should render add-note div 1`] = `
+<div
+  className="FullWidthButton"
+>
+  <div
+    className="FullWidthButton-button-container"
+  >
+    <Button
+      className="FullWidthButton-button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Button
+    </Button>
+  </div>
+  <div
+    className="FullWidthButton-add-note"
+  >
+    Some note
+  </div>
+</div>
+`;

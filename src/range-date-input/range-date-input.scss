@@ -1,0 +1,38 @@
+@import "src/styles/variables";
+
+.DayPicker {
+    /* stylelint-disable selector-class-pattern */
+    .DayPickerNavigation__prev,
+    .DayPickerNavigation__next {
+        &:focus {
+            box-shadow: 0 0 4px 2px $blue_200;
+        }
+    }
+
+    .CalendarDay--blocked,
+    .CalendarDay--blocked-out-of-range {
+        .CalendarDay__button:focus {
+            background-color: $range-date-focused;
+            color: $rhino;
+        }
+    }
+
+    .CalendarDay--valid {
+        .CalendarDay__button:focus {
+            background-color: $range-date-focused;
+        }
+
+        &.CalendarDay--today,
+        &.CalendarDay--selected-start,
+        &.CalendarDay--selected-end,
+        &.CalendarDay--selected-span {
+            /* stylelint-disable max-nesting-depth */
+            .CalendarDay__button:focus {
+                background-color: $bluejay;
+                color: $white;
+            }
+            /* stylelint-enable max-nesting-depth */
+        }
+    }
+    /* stylelint-enable selector-class-pattern */
+}

@@ -1,0 +1,28 @@
+@import "src/styles/variables";
+
+.RadioButton {
+    &-label,
+    &-wrapper {
+        align-items: center;
+        color: $grey_800;
+        display: flex;
+        flex-flow: row;
+        font-size: 14px;
+        font-weight: $weight_book;
+        margin: 0 0 5px 0;
+        text-transform: none;
+    }
+
+    &-label:last-child {
+        margin-bottom: 0;
+    }
+
+    &-radio {
+        /* global style override, to fix alignment of radios */
+        /* stylelint-disable declaration-no-important */
+        margin: 1px 8px 0 0 !important;
+        /* stylelint-enable declaration-no-important */
+        position: relative;
+        top: -1px;
+    }
+}

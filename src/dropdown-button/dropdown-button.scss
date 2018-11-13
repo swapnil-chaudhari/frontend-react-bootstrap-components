@@ -1,0 +1,35 @@
+@import "src/styles/variables";
+
+/* stylelint-disable selector-class-pattern */
+.DropdownButton {
+    .btn-group > .btn {
+        float: none;
+    }
+
+    & .Icons-chevron {
+        fill: $white;
+    }
+
+    .dropdown-menu {
+        /* stylelint-disable no-descending-specificity */
+        /* stylelint-disable selector-no-type */
+        /* stylelint-disable max-nesting-depth */
+        > li > a {
+            color: $rhino;
+        }
+        > .active > a {
+            background-color: $bluejay_light;
+            color: $gorilla;
+
+            &:focus,
+            &:hover {
+                background-color: $mouse;
+                color: $gorilla;
+            }
+        }
+        /* stylelint-enable max-nesting-depth */
+        /* stylelint-enable selector-no-type */
+        /* stylelint-enable no-descending-specificity */
+    }
+}
+/* stylelint-enable selector-class-pattern */

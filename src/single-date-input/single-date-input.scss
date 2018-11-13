@@ -1,0 +1,130 @@
+@import "src/styles/colors.scss";
+
+$react-dates-color-primary: $bluejay;
+$react-dates-color-primary-dark: darken($bluejay, 10%);
+$react-dates-color-primary-shade-1: lighten($bluejay, 50%);
+$react-dates-color-primary-shade-2: lighten($bluejay, 60%);
+$react-dates-color-primary-shade-3: lighten($bluejay, 70%);
+$react-dates-color-primary-shade-4: lighten($bluejay, 80%);
+$react-dates-color-secondary: $humpback;
+
+$react-dates-color-gray: $rhino;
+$react-dates-color-gray-dark: $gorilla;
+$react-dates-color-gray-light: $timberwolf;
+$react-dates-color-gray-lighter: $koala;
+$react-dates-color-gray-lightest: $mouse;
+$react-dates-color-highlighted: $humpback;
+
+$react-dates-color-border: $rhino;
+$react-dates-color-border-light: $koala;
+$react-dates-color-border-medium: $timberwolf;
+$react-dates-color-placeholder-text: $gorilla;
+$react-dates-color-text: $gorilla;
+$react-dates-color-text-focus: $gorilla;
+$react-dates-color-focus: $mouse;
+
+@import "~react-dates/css/variables.scss";
+@import "~react-dates/css/styles.scss";
+
+/* stylelint-disable selector-class-pattern */
+.SingleDatePickerInput__calendar-icon {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+.DayPickerNavigation--horizontal {
+    .DayPickerNavigation__prev,
+    .DayPickerNavigation__next {
+        background:
+            linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, .5),
+                $mouse
+            ),
+            linear-gradient($white, $white);
+        border: 1px solid $koala;
+        border-radius: 3px;
+        color: $rhino;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .DayPickerNavigation__prev {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    .DayPickerNavigation__next {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+}
+
+/* stylelint-disable max-nesting-depth */
+.DateInput-section {
+    position: relative;
+
+    .DayPicker {
+        left: 0;
+        position: absolute;
+        top: 40px;
+        z-index: 9000;
+    }
+
+    .CalendarDay {
+        &.CalendarDay--valid {
+            &.CalendarDay--today,
+            &.CalendarDay--selected-span {
+                .CalendarDay__button {
+                    color: $gorilla;
+                }
+
+                &.CalendarDay--hovered,
+                &.CalendarDay--selected-start,
+                &.CalendarDay--selected-end {
+                    .CalendarDay__button {
+                        color: $white;
+                    }
+                }
+
+                &.CalendarDay--selected-start,
+                &.CalendarDay--hovered {
+                    background-color: $bluejay;
+                }
+
+                &.CalendarDay--after-hovered-start {
+                    background-color: $react-dates-color-primary-shade-2;
+                    border: 1px double $react-dates-color-primary-shade-1;
+                }
+            }
+        }
+    }
+}
+/* stylelint-enable max-nesting-depth */
+
+.DateInput-container {
+    position: relative;
+
+    .Icons-calendar {
+        pointer-events: none;
+        position: absolute;
+        right: 7px;
+        top: 7px;
+    }
+
+    &.in-range {
+        .Icons-calendar {
+            right: 22px;
+        }
+    }
+
+    &.dash-after::after {
+        content: "—";
+        display: inline-block;
+        position: absolute;
+        right: -15px;
+        text-align: center;
+        top: 7px;
+        width: 30px;
+    }
+}

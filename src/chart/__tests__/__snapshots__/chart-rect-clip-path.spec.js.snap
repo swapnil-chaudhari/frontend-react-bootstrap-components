@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartRectClipPath> when it renders has proper markup 1`] = `
+<clipPath
+  id="extra"
+>
+  <rect
+    height={200}
+    width={100}
+    x={0}
+    y={0}
+  />
+</clipPath>
+`;

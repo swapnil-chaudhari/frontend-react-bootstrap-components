@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupedBarChartXaxis> when it renders has proper markup 1`] = `
+<g
+  className="GroupedBarChartXaxis"
+>
+  <line
+    className="GroupedBarChartXaxis-line"
+    x1={30}
+    x2={100}
+    y1={160}
+    y2={160}
+  />
+</g>
+`;

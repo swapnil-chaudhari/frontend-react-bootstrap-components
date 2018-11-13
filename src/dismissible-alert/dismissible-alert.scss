@@ -1,0 +1,98 @@
+@import "src/styles/variables";
+
+.DismissibleAlert {
+    align-items: center;
+    background-color: $fox-light;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+
+    &-danger,
+    &-success,
+    &-warning {
+        &-title {
+            font-size: 14px;
+            font-weight: $weight_bold;
+            line-height: 16px;
+            margin-top: 0;
+        }
+
+        &-subtitle {
+            line-height: 20px;
+        }
+
+        &-description {
+            line-height: 20px;
+            margin-top: 10px;
+        }
+
+        &-titles {
+            margin-bottom: 12px;
+            margin-top: 12px;
+        }
+
+        &-button {
+            background: none;
+            border: none;
+            color: $bluejay;
+            font-weight: $weight_bold;
+            margin-left: auto;
+            margin-right: 20px;
+            padding: 0;
+        }
+
+        .Icons-incomplete-alert,
+        .Icons-complete-checkmark {
+            height: 32px;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 32px;
+        }
+    }
+
+    &-danger {
+        &-title {
+            color: $parrot;
+        }
+
+        .Icons-incomplete-alert {
+            fill: $parrot;
+        }
+    }
+
+    &-success {
+        background-color: $turtle_light;
+
+        &-title {
+            color: $turtle;
+        }
+
+        .Icons-complete-checkmark {
+            fill: $turtle;
+        }
+    }
+
+    &-warning {
+        &-title {
+            color: $fox;
+        }
+
+        .Icons-incomplete-alert {
+            fill: $fox;
+        }
+    }
+
+    &-high {
+        .Icons-incomplete-alert,
+        .Icons-complete-checkmark {
+            align-self: flex-start;
+            margin-top: 15px;
+        }
+
+        &-button {
+            align-self: flex-start;
+            margin-top: 20px;
+        }
+    }
+}
+

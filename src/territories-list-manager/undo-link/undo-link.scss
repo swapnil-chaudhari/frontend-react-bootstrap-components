@@ -1,0 +1,13 @@
+.UndoLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &-link {
+        padding: 0 5px;
+    }
+
+    &-link.btn:not(.disabled):hover { /* stylelint-disable-line selector-class-pattern */
+        box-shadow: none;
+    }
+}

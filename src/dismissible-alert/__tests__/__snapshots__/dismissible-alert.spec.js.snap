@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DismissibleAlert> when rendered with a blank button text renders the component without the dismiss button 1`] = `
+<div
+  className="DismissibleAlert DismissibleAlert-danger"
+>
+  <IncompleteAlert />
+  <div
+    className="DismissibleAlert-danger-titles"
+  >
+    <h3
+      className="DismissibleAlert-danger-title"
+    >
+      Do Stuff Please
+    </h3>
+    <p
+      className="DismissibleAlert-danger-subtitle"
+    >
+      Please do things to dismiss
+    </p>
+  </div>
+  
+</div>
+`;
+
+exports[`<DismissibleAlert> when rendered with custom props has expected markup 1`] = `
+<div
+  className="DismissibleAlert DismissibleAlert-warning"
+>
+  <IncompleteAlert />
+  <div
+    className="DismissibleAlert-warning-titles"
+  >
+    <h3
+      className="DismissibleAlert-warning-title"
+    >
+      Do Stuff Please
+    </h3>
+    <p
+      className="DismissibleAlert-warning-subtitle"
+    >
+      Please do things to dismiss
+    </p>
+  </div>
+  <button
+    className="DismissibleAlert-warning-button"
+    onClick={[Function]}
+  >
+    DISMISS
+  </button>
+</div>
+`;
+
+exports[`<DismissibleAlert> when rendered with default props has expected markup 1`] = `
+<div
+  className="DismissibleAlert DismissibleAlert-default"
+>
+  <IncompleteAlert />
+  <div
+    className="DismissibleAlert-default-titles"
+  >
+    <h3
+      className="DismissibleAlert-default-title"
+    >
+      Do Stuff Please
+    </h3>
+    <p
+      className="DismissibleAlert-default-subtitle"
+    >
+      Please do things to dismiss
+    </p>
+  </div>
+  <button
+    className="DismissibleAlert-default-button"
+    onClick={[Function]}
+  >
+    DISMISS
+  </button>
+</div>
+`;
+
+exports[`<DismissibleAlert> when rendered with description has expected markup 1`] = `
+<div
+  className="DismissibleAlert DismissibleAlert-warning DismissibleAlert-high"
+>
+  <IncompleteAlert />
+  <div
+    className="DismissibleAlert-warning-titles"
+  >
+    <h3
+      className="DismissibleAlert-warning-title"
+    >
+      Do Stuff Please
+    </h3>
+    <p
+      className="DismissibleAlert-warning-subtitle"
+    >
+      Please do things to dismiss
+    </p>
+    <div
+      className="DismissibleAlert-warning-description"
+    >
+      Some description
+    </div>
+  </div>
+  <button
+    className="DismissibleAlert-warning-button DismissibleAlert-high-button"
+    onClick={[Function]}
+  >
+    DISMISS
+  </button>
+</div>
+`;
+
+exports[`<DismissibleAlert> when rendered with style success has expected markup 1`] = `
+<div
+  className="DismissibleAlert DismissibleAlert-success"
+>
+  <CompleteCheckmark />
+  <div
+    className="DismissibleAlert-success-titles"
+  >
+    <h3
+      className="DismissibleAlert-success-title"
+    >
+      Hi there
+    </h3>
+    <p
+      className="DismissibleAlert-success-subtitle"
+    >
+      Subtitle
+    </p>
+  </div>
+  <button
+    className="DismissibleAlert-success-button"
+    onClick={[Function]}
+  >
+    Discard
+  </button>
+</div>
+`;

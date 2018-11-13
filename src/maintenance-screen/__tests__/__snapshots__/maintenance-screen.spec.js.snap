@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaintenanceScreen> when rendered with default props contains Maintenance icon and text 1`] = `
+<div
+  className="MaintenanceScreen"
+>
+  <div
+    className="MaintenanceScreen-logo"
+  >
+    <LogoAndName />
+  </div>
+  <div
+    className="MaintenanceScreen-content"
+  >
+    <div
+      className="MaintenanceScreen-graphic"
+    >
+      <Maintenance />
+    </div>
+    <p
+      className="MaintenanceScreen-title"
+    >
+      We're down for maintenance. We'll be back up by
+       
+      <span
+        className="MaintenanceScreen-highlighted"
+      >
+        2 AM 
+      </span>
+      EST.
+    </p>
+    <p
+      className="MaintenanceScreen-subtitle"
+    >
+      Sorry for any inconvenience.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<MaintenanceScreen> when rendered with default props contains logo 1`] = `
+<div
+  className="MaintenanceScreen"
+>
+  <div
+    className="MaintenanceScreen-logo"
+  >
+    <LogoAndName />
+  </div>
+  <div
+    className="MaintenanceScreen-content"
+  >
+    <div
+      className="MaintenanceScreen-graphic"
+    >
+      <Maintenance />
+    </div>
+    <p
+      className="MaintenanceScreen-title"
+    >
+      We're down for maintenance. We'll be back up by
+       
+      <span
+        className="MaintenanceScreen-highlighted"
+      >
+        2 AM 
+      </span>
+      EST.
+    </p>
+    <p
+      className="MaintenanceScreen-subtitle"
+    >
+      Sorry for any inconvenience.
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingIndicator> when it renders a small version should have proper markup 1`] = `
+<div
+  className="LoadingIndicator"
+>
+  <div
+    className="LoadingIndicator-outer"
+    style={
+      Object {
+        "top": 0,
+      }
+    }
+  >
+    <div
+      className="LoadingIndicator-dots LoadingIndicator-dots-small"
+    >
+      <div
+        className="LoadingIndicator-loader-dot LoadingIndicator-loader-dot-small"
+      />
+      <div
+        className="LoadingIndicator-loader-dot LoadingIndicator-loader-dot-small"
+      />
+      <div
+        className="LoadingIndicator-loader-dot LoadingIndicator-loader-dot-small"
+      />
+      <div
+        className="LoadingIndicator-loader-dot LoadingIndicator-loader-dot-small"
+      />
+      <div
+        className="LoadingIndicator-loader-dot LoadingIndicator-loader-dot-small"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LoadingIndicator> when it renders fullscreen should have proper markup 1`] = `
+<div
+  className="LoadingIndicator LoadingIndicator-fullscreen"
+>
+  <div
+    className="LoadingIndicator-outer"
+    style={
+      Object {
+        "top": 0,
+      }
+    }
+  >
+    <div
+      className="LoadingIndicator-dots"
+    >
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LoadingIndicator> when it renders should have proper markup 1`] = `
+<div
+  className="LoadingIndicator"
+>
+  <div
+    className="LoadingIndicator-outer"
+    style={
+      Object {
+        "top": 0,
+      }
+    }
+  >
+    <div
+      className="LoadingIndicator-dots"
+    >
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<LoadingIndicator> when it renders with a top offset should have proper markup 1`] = `
+<div
+  className="LoadingIndicator"
+>
+  <div
+    className="LoadingIndicator-outer"
+    style={
+      Object {
+        "top": 4,
+      }
+    }
+  >
+    <div
+      className="LoadingIndicator-dots"
+    >
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+      <div
+        className="LoadingIndicator-loader-dot"
+      />
+    </div>
+  </div>
+</div>
+`;

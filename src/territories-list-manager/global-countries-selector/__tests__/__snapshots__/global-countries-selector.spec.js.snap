@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalountriesSelector> when it renders should render select all and select none elements 1`] = `
+<div
+  className="GlobalCountriesSelector"
+>
+  <b>
+    Select:
+  </b>
+  <span
+    className="GlobalCountriesSelector-all btn-link"
+    onClick={[Function]}
+  >
+    <b>
+      select all label
+    </b>
+  </span>
+  <span
+    className="GlobalCountriesSelector-none btn-link"
+    onClick={[Function]}
+  >
+    <b>
+      select none label
+    </b>
+  </span>
+</div>
+`;

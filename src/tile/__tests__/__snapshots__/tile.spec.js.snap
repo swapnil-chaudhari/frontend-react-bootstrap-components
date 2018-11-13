@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tile> when it renders with image has proper markup 1`] = `
+<div
+  className="Tile"
+  onClick={[Function]}
+>
+  <div
+    className="row"
+  >
+    <div
+      className="Tile-image-column col-xs-4"
+    >
+      <div
+        className="Tile-image-column-inner"
+      />
+    </div>
+    <div
+      className="Tile-column col-xs-8"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Tile> when it renders without image has proper markup 1`] = `
+<div
+  className="Tile"
+  onClick={[Function]}
+>
+  <div
+    className="row"
+  >
+    <div
+      className="Tile-column col-xs-12"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

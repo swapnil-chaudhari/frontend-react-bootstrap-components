@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayInput> when rendered with required props renders <DayInput> with the right props 1`] = `
+Object {
+  "classNames": Object {
+    "container": "DayPickerInput",
+    "overlay": "DayPickerInput-Overlay",
+    "overlayWrapper": "DayPickerInput-OverlayWrapper",
+  },
+  "clickUnselectsDay": false,
+  "component": [Function],
+  "dayPickerProps": Object {
+    "canChangeMonth": true,
+    "captionElement": [Function],
+    "enableOutsideDaysClick": false,
+    "fromMonth": undefined,
+    "locale": "en",
+    "localeUtils": Object {
+      "formatDate": [Function],
+      "formatDay": [Function],
+      "formatMonthTitle": [Function],
+      "formatWeekdayLong": [Function],
+      "formatWeekdayShort": [Function],
+      "getFirstDayOfWeek": [Function],
+      "getMonths": [Function],
+      "parseDate": [Function],
+    },
+    "modifiers": Object {
+      "disabled": Object {
+        "after": undefined,
+        "before": undefined,
+      },
+    },
+    "month": undefined,
+    "navbarElement": [Function],
+    "showOutsideDays": false,
+    "toMonth": undefined,
+    "todayButton": "todayLabel",
+  },
+  "format": "YYYY-MM-DD",
+  "formatDate": [Function],
+  "hideOnDayClick": true,
+  "inputProps": Object {
+    "className": "DateField-form-control form-control DayPickerInput-input",
+    "disabled": false,
+    "name": "my-day-input",
+    "onBeforeKeyDown": [Function],
+    "onKeyUp": [Function],
+  },
+  "keepFocus": true,
+  "onDayChange": [Function],
+  "overlayComponent": [Function],
+  "parseDate": [Function],
+  "placeholder": "YYYY-MM-DD",
+  "showOverlay": false,
+  "value": "",
+}
+`;

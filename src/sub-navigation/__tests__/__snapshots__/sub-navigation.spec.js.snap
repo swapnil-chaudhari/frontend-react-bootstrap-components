@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SubNavigation> when it renders should have proper markup 1`] = `
+<div
+  className="SubNavigation"
+>
+  <nav
+    className="main-subnav"
+  >
+    <SubNavigationItem
+      className="active"
+      href="project/1"
+      onClick={[Function]}
+    >
+      Project #1
+    </SubNavigationItem>
+    <SubNavigationItem
+      href="project/2"
+      onClick={[Function]}
+    >
+      Project #2
+    </SubNavigationItem>
+  </nav>
+</div>
+`;

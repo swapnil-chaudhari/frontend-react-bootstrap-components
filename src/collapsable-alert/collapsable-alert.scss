@@ -1,0 +1,83 @@
+@import "src/styles/variables";
+
+.CollapsableAlert {
+
+    border-radius: 3px;
+
+    &-button {
+        background: none;
+        border: none;
+        color: $bluejay;
+        display: flex;
+        font-weight: $weight_bold;
+        margin-left: auto;
+        margin-right: 20px;
+        padding: 0;
+
+        .Icons-down-direction-arrow,
+        .Icons-up-direction-arrow {
+            fill: $bluejay;
+            margin-left: 3px;
+        }
+    }
+
+    &-expanded-contents {
+        border-top: 1px solid $grey_200;
+    }
+
+    &-subtitle {
+        line-height: 20px;
+    }
+
+    &-titles {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    &-top-banner {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-danger {
+        background-color: $parrot_light;
+        color: $parrot;
+
+        &-title {
+            color: $parrot;
+            font-size: 14px;
+            font-weight: $weight_bold;
+            line-height: 16px;
+            margin-top: 0;
+        }
+
+        .Icons-incomplete-alert {
+            fill: $parrot;
+            height: 32px;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 32px;
+        }
+    }
+
+    &-warning {
+        color: $fox;
+
+        &-title {
+            color: $fox;
+            font-size: 14px;
+            font-weight: $weight_bold;
+            line-height: 16px;
+            margin-top: 0;
+        }
+
+        .Icons-incomplete-alert {
+            fill: $fox;
+            height: 32px;
+            margin-left: 15px;
+            margin-right: 15px;
+            width: 32px;
+        }
+    }
+}

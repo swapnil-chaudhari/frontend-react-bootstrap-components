@@ -1,0 +1,52 @@
+@import "src/styles/variables";
+
+.Select-input {
+    height: 28px;
+}
+
+.Select-option {
+    height: 30px;
+}
+
+.Select-control {
+    font-size: 14px;
+    height: auto;
+}
+
+/* stylelint-disable selector-class-pattern */
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+    height: 28px;
+    line-height: inherit;
+    top: 5px;
+}
+
+.Select-value-label {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 345px;
+}
+
+.is-focused > .Select-control {
+    @extend .Opm-focused-input;
+}
+
+.is-disabled {
+    .Select-control {
+        cursor: not-allowed;
+    }
+}
+
+/* stylelint-enable selector-class-pattern */
+
+.Select-arrow {
+    background: no-repeat center;
+    background-image: url("data:image/svg+xml;utf8,<svg width='13' height='8' viewBox='0 0 13 8' xmlns='http://www.w3.org/2000/svg'><path d='M.134 1.325L5.97 7.16c.067.09.18.135.27.135.112 0 .224-.045.29-.135l5.837-5.835c.09-.09.135-.18.135-.292 0-.09-.045-.202-.135-.292L11.74.136C11.67.045 11.56 0 11.47 0c-.113 0-.225.045-.292.135L6.238 5.05 1.325.136C1.234.045 1.144 0 1.032 0 .92 0 .83.045.74.135L.134.74C.044.83 0 .944 0 1.034c0 .112.044.202.134.292' fill='%234A4A4A' fillRule='evenodd'/></svg>");
+    background-size: 10px 9px;
+    border: none;
+    display: block;
+    height: 26px;
+    width: 38px;
+}

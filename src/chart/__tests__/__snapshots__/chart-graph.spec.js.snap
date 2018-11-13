@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartGraph> when it renders with data has proper markup with data 1`] = `
+<g
+  className="Graph"
+>
+  <ChartRectClipPath
+    height={400}
+    id="clip"
+    width={1347}
+    x={0}
+    y={25}
+  />
+  <g
+    style={
+      Object {
+        "clipPath": "url(#clip)",
+      }
+    }
+    transform="translate(0, -25)"
+  >
+    <Grid
+      height={400}
+      width={1347}
+      xOffset={50}
+      xScale={[Function]}
+      xTicks={
+        Array [
+          1507262400000,
+          1507348800000,
+          1507435200000,
+          1507521600000,
+          1507608000000,
+          1507694400000,
+          1507780800000,
+        ]
+      }
+      yOffset={-25}
+      yScale={[Function]}
+      yTicks={
+        Array [
+          0,
+          100,
+          200,
+          300,
+        ]
+      }
+    />
+  </g>
+  <ChartYaxis
+    height={400}
+    scale={[Function]}
+    tickFormat={[Function]}
+    tickWidth={1347}
+    ticks={
+      Array [
+        0,
+        100,
+        200,
+        300,
+      ]
+    }
+    width={1347}
+    x={0}
+    y={-25}
+  />
+  <ChartXaxis
+    dateFormat="MMM D"
+    height={400}
+    hover={undefined}
+    scale={[Function]}
+    ticks={
+      Array [
+        1507262400000,
+        1507348800000,
+        1507435200000,
+        1507521600000,
+        1507608000000,
+        1507694400000,
+        1507780800000,
+      ]
+    }
+    width={1347}
+    xAxisOffset={50}
+    yAxisOffset={0}
+  />
+  <g>
+    <g
+      style={
+        Object {
+          "clipPath": "url(#clip)",
+        }
+      }
+      transform="translate(50, -25)"
+    >
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,205.1948051948052L370,253.8961038961039L1295,59.09090909090912L1295,400L370,400L0,400Z"
+          fill="#4B3DA3"
+        />
+      </g>
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,351.2987012987013L370,302.5974025974026L1295,351.2987012987013L1295,400L370,400L0,400Z"
+          fill="#419B86"
+        />
+      </g>
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,361.038961038961L370,361.038961038961L1295,370.7792207792208L1295,400L370,400L0,400Z"
+          fill="#026EAD"
+        />
+      </g>
+    </g>
+  </g>
+  <ChartOverlayTrigger
+    className="HoverSpot"
+    height={400}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    width={1347}
+    x={42}
+    y={25}
+  />
+</g>
+`;
+
+exports[`<ChartGraph> when it renders with hover has proper markup with hover 1`] = `
+<g
+  className="Graph"
+>
+  <ChartRectClipPath
+    height={400}
+    id="clip"
+    width={1347}
+    x={0}
+    y={25}
+  />
+  <g
+    style={
+      Object {
+        "clipPath": "url(#clip)",
+      }
+    }
+    transform="translate(0, -25)"
+  >
+    <Grid
+      height={400}
+      width={1347}
+      xOffset={50}
+      xScale={[Function]}
+      xTicks={
+        Array [
+          1507262400000,
+          1507348800000,
+          1507435200000,
+          1507521600000,
+          1507608000000,
+          1507694400000,
+          1507780800000,
+        ]
+      }
+      yOffset={-25}
+      yScale={[Function]}
+      yTicks={
+        Array [
+          0,
+          100,
+          200,
+          300,
+        ]
+      }
+    />
+  </g>
+  <ChartYaxis
+    height={400}
+    scale={[Function]}
+    tickFormat={[Function]}
+    tickWidth={1347}
+    ticks={
+      Array [
+        0,
+        100,
+        200,
+        300,
+      ]
+    }
+    width={1347}
+    x={0}
+    y={-25}
+  />
+  <ChartXaxis
+    dateFormat="MMM D"
+    height={400}
+    hover={
+      Object {
+        "hoverPosition": 50,
+        "hoverText": "Friday, October 6",
+      }
+    }
+    scale={[Function]}
+    ticks={
+      Array [
+        1507262400000,
+        1507348800000,
+        1507435200000,
+        1507521600000,
+        1507608000000,
+        1507694400000,
+        1507780800000,
+      ]
+    }
+    width={1347}
+    xAxisOffset={50}
+    yAxisOffset={0}
+  />
+  <g>
+    <g
+      style={
+        Object {
+          "clipPath": "url(#clip)",
+        }
+      }
+      transform="translate(50, -25)"
+    >
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,205.1948051948052L370,253.8961038961039L1295,59.09090909090912L1295,400L370,400L0,400Z"
+          fill="#4B3DA3"
+        />
+      </g>
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,351.2987012987013L370,302.5974025974026L1295,351.2987012987013L1295,400L370,400L0,400Z"
+          fill="#419B86"
+        />
+      </g>
+      <g
+        className="ChartArea"
+      >
+        <path
+          className="ChartAreaPath"
+          d="M0,361.038961038961L370,361.038961038961L1295,370.7792207792208L1295,400L370,400L0,400Z"
+          fill="#026EAD"
+        />
+      </g>
+    </g>
+    <g>
+      <line
+        className="HoverLine"
+        x1={50}
+        x2={50}
+        y1="0"
+        y2={375}
+      />
+      <g>
+        <circle
+          className="Circle"
+          cx={50}
+          cy={178.1948051948052}
+          r={6}
+        />
+        <text
+          className="Circle-text"
+          textAnchor="start"
+          transform="translate(10, 0)"
+          x={50}
+          y={178.1948051948052}
+        >
+          200
+        </text>
+      </g>
+    </g>
+  </g>
+  <ChartOverlayTrigger
+    className="HoverSpot"
+    height={400}
+    onMouseLeave={[Function]}
+    onMouseMove={[Function]}
+    width={1347}
+    x={42}
+    y={25}
+  />
+</g>
+`;
+
+exports[`<ChartGraph> when it renders with no data has proper markup with no data 1`] = `
+<g
+  className="Graph"
+>
+  <ChartRectClipPath
+    height={400}
+    id="clip"
+    width={1347}
+    x={0}
+    y={25}
+  />
+  <g
+    style={
+      Object {
+        "clipPath": "url(#clip)",
+      }
+    }
+    transform="translate(0, -25)"
+  >
+    <Grid
+      height={400}
+      width={1347}
+      xOffset={50}
+      xScale={[Function]}
+      xTicks={
+        Array [
+          1507262400000,
+          1507348800000,
+          1507435200000,
+          1507521600000,
+          1507608000000,
+          1507694400000,
+          1507780800000,
+        ]
+      }
+      yOffset={-25}
+      yScale={[Function]}
+      yTicks={
+        Array [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+        ]
+      }
+    />
+  </g>
+  <ChartYaxis
+    height={400}
+    scale={[Function]}
+    tickFormat={[Function]}
+    tickWidth={1347}
+    ticks={
+      Array [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+      ]
+    }
+    width={1347}
+    x={0}
+    y={-25}
+  />
+  <ChartXaxis
+    dateFormat="MMM D"
+    height={400}
+    hover={undefined}
+    scale={[Function]}
+    ticks={
+      Array [
+        1507262400000,
+        1507348800000,
+        1507435200000,
+        1507521600000,
+        1507608000000,
+        1507694400000,
+        1507780800000,
+      ]
+    }
+    width={1347}
+    xAxisOffset={50}
+    yAxisOffset={0}
+  />
+  <g>
+    <g
+      style={
+        Object {
+          "clipPath": "url(#clip)",
+        }
+      }
+      transform="translate(50, -25)"
+    />
+    <ChartNoData
+      height={400}
+      noDataText="NO DATA"
+      width={1347}
+    />
+  </g>
+</g>
+`;

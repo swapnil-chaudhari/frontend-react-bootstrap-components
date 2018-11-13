@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListHeaderSearch> when it renders should render search field with icons 1`] = `
+<div
+  className="ListHeaderSearch"
+>
+  <span
+    className="ListHeaderSearch-search"
+  >
+    <Search />
+  </span>
+  <input
+    className="ListHeaderSearch-field"
+    onChange={[Function]}
+    placeholder="search placeholder"
+    type="text"
+    value=""
+  />
+  <span
+    className="ListHeaderSearch-close hide"
+    onClick={[Function]}
+  >
+    <CloseRound />
+  </span>
+</div>
+`;

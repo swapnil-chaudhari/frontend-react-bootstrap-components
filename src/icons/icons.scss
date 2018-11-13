@@ -1,0 +1,427 @@
+@import "src/styles/variables";
+
+.Icons {
+    &-attention {
+        fill: $red-200;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-audio-player-mute {
+        fill: $white;
+        height: 21px;
+        width: 26px;
+    }
+
+    &-audio-player-next {
+        height: 30px;
+        width: 30px;
+    }
+
+    &-audio-player-next-lite {
+        height: 12px;
+        width: 12px;
+    }
+
+    &-audio-player-pause {
+        height: 30px;
+        width: 30px;
+    }
+
+    &-audio-player-pause-lite {
+        height: 14px;
+        width: 12px;
+    }
+
+    &-audio-player-play {
+        height: 30px;
+        width: 30px;
+    }
+
+    &-audio-player-previous {
+        height: 30px;
+        width: 30px;
+    }
+
+    &-audio-player-previous-lite {
+        height: 12px;
+        width: 12px;
+    }
+
+    &-audio-player-volume {
+        fill: $white;
+        height: 20px;
+        width: 23px;
+    }
+
+    &-calendar {
+        height: 15px;
+        width: 15px;
+    }
+
+    &-complete-checkmark {
+        fill: $turtle;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-chevron {
+        fill: $grey_800;
+        height: 16px;
+        vertical-align: middle;
+        width: 16px;
+    }
+
+    &-clean-version {
+        height: 15px;
+        margin-left: 10px;
+        position: relative;
+        top: 3px;
+        width: 42px;
+    }
+
+    &-close {
+        cursor: pointer;
+        fill: $grey_200;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-digital,
+    &-physical,
+    &-film {
+        height: 57px;
+        width: 55px;
+    }
+
+    &-explicit {
+        height: 15px;
+        margin-left: 10px;
+        position: relative;
+        top: 3px;
+        width: 54px;
+    }
+
+    &-incomplete-alert {
+        fill: $fox;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-info {
+        height: 12px;
+        margin-left: 6px;
+        margin-right: 6px;
+        width: 12px;
+    }
+
+    &-play {
+        fill: $rhino;
+        height: 12px;
+        width: 9px;
+    }
+
+    &-status-red,
+    &-status-complete,
+    &-status-in-progress,
+    &-status-submitted {
+        height: 12px;
+        width: 12px;
+    }
+
+    &-stop {
+        fill: $bluejay;
+        height: 8px;
+        width: 8px;
+    }
+
+    &-upload {
+        height: 16px;
+        margin-right: 5px;
+        vertical-align: text-top;
+        width: 16px;
+    }
+
+    &-right-direction-arrow {
+        height: 22px;
+        width: 12px;
+    }
+
+    &-loading-ring {
+        height: 120px;
+        width: 120px;
+    }
+
+    &-trash-can {
+        fill: $grey_700;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-close-round {
+        height: 25px;
+        width: 25px;
+    }
+
+    &-search {
+        fill: $gorilla;
+        height: 18px;
+        width: 16px;
+    }
+
+    &-three-right-directed-arrows {
+        height: 16px;
+        width: 30px;
+    }
+
+    &-left-pagination-arrow {
+        fill: $grey_900;
+        height: 13px;
+        width: 8px;
+    }
+
+    &-right-pagination-arrow {
+        fill: $grey_900;
+        height: 13px;
+        width: 8px;
+    }
+
+    &-logo {
+        height: 32px;
+        width: 23px;
+    }
+
+    &-loading-arrows {
+        animation: roll 1.25s ease infinite;
+        fill: $timberwolf;
+        height: 20px;
+        width: 15px;
+    }
+
+    &-edit {
+        fill: $grey_700;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-external-link {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-up-and-down-arrows {
+        fill: $grey_400;
+        height: 20px;
+        width: 8px;
+    }
+
+    &-download-box {
+        height: 120px;
+        width: 120px;
+    }
+
+    &-triple-checkmark {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-up-and-down-carets {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-tracks-complete-checkmark {
+        fill: $koala;
+    }
+
+    &-view-more-next-arrow {
+        fill: $bluejay;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-plus {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-man {
+        fill: $grey_700;
+        height: 16px;
+        width: 15px;
+    }
+
+    &-woman {
+        fill: $grey_700;
+        height: 18px;
+        width: 12px;
+    }
+
+    &-down-direction-arrow {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-up-direction-arrow {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+    &-three-dots {
+        fill: $rhino;
+        height: 30px;
+        width: 30px;
+    }
+
+    &-download-symbol {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-refresh {
+        fill: $rhino;
+        height: 16px;
+        width: 16px;
+    }
+
+    &-server-error {
+        height: 50px;
+        width: 80px;
+    }
+
+    &-new-product {
+        height: 67px;
+        width: 68px;
+    }
+
+    &-advertise {
+        height: 65px;
+        width: 68px;
+    }
+
+    &-go-to-catalog {
+        height: 54px;
+        width: 66px;
+    }
+
+    &-transparent-logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    &-history {
+        fill: $timberwolf;
+        height: 16px;
+        width: 15px;
+    }
+
+    &-pdf {
+        height: 28px;
+        width: 23px;
+    }
+
+    &-xls {
+        height: 28px;
+        width: 23px;
+    }
+
+    &-royalty-share-logo {
+        height: 40px;
+        width: 354px;
+    }
+
+    &-error-404 {
+        height: 288px;
+        width: 486px;
+    }
+
+    &-maintenance {
+        height: 131px;
+        width: 220px;
+    }
+
+    &-logo-and-name {
+        height: 40px;
+        width: 110px;
+    }
+
+    &-apple-music {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-spotify {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-facebook {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-aan {
+        height: 12px;
+        width: 32px;
+    }
+
+    &-twitter {
+        height: 16px;
+        width: 14px;
+    }
+
+    &-instagram {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-youtube {
+        height: 12px;
+        width: 16px;
+    }
+
+    &-camera {
+        height: 16px;
+        width: 16px;
+    }
+
+    &-playlist-placeholder {
+        height: 135px;
+        width: 135px;
+    }
+
+    @keyframes roll {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+/* stylelint-disable selector-no-id */
+#audio-player-play-circle,
+#audio-player-previous-circle,
+#audio-player-previous-lite-path,
+#audio-player-next-circle,
+#audio-player-next-lite-path {
+    fill: $rhino;
+}
+
+#audio-player-play-triangle,
+#audio-player-previous-path,
+#audio-player-next-path {
+    fill: $white;
+}
+
+#audio-player-pause-lite-path {
+    fill: #ff893e;
+}
+/* stylelint-enable selector-no-id */

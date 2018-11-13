@@ -1,0 +1,59 @@
+@import "src/styles/variables";
+
+.Filters {
+    &-fixed {
+        background: $white;
+        padding: 20px 0;
+        position: fixed;
+        top: 0;
+        width: inherit;
+        z-index: 9999;
+    }
+
+    &,
+    &-fixed {
+        border-bottom: 1px solid $koala;
+    }
+
+    &-search-wrapper {
+        display: flex;
+    }
+
+    .DropdownButton {
+        flex: 0;
+
+        .Icons-chevron {
+            fill: $rhino;
+            margin-left: 3px;
+        }
+
+        /* These are not our own classes but from react-bootstrap created elements: */
+        /* stylelint-disable max-nesting-depth, selector-class-pattern, selector-no-type */
+        .dropdown-menu {
+            margin: 0;
+            min-width: 100px;
+
+            li {
+                a {
+                    line-height: 26px;
+                }
+
+                &:first-child a {
+                    padding-top: 8px;
+                }
+
+                &:last-child a {
+                    padding-bottom: 8px;
+                }
+            }
+        }
+
+        .dropdown-toggle {
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            font-size: 12px;
+            height: 36px;
+        }
+        /* stylelint-enable max-nesting-depth, selector-class-pattern, selector-no-type */
+    }
+}

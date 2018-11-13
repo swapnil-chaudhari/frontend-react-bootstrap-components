@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TagsInput> when it is disabled has expected markup 1`] = `
+<div
+  id={undefined}
+>
+  <TagsInput
+    addKeys={
+      Array [
+        9,
+        13,
+      ]
+    }
+    addOnBlur={false}
+    addOnPaste={false}
+    className="form-control TagsInput TagsInput-disabled"
+    disabled={true}
+    focusedClassName="TagsInput-focused"
+    inputProps={
+      Object {
+        "className": "TagsInput-input",
+        "placeholder": "",
+      }
+    }
+    maxTags={-1}
+    onChange={[Function]}
+    onlyUnique={false}
+    pasteSplit={[Function]}
+    preventSubmit={true}
+    removeKeys={
+      Array [
+        8,
+      ]
+    }
+    renderInput={[Function]}
+    renderLayout={[Function]}
+    renderTag={[Function]}
+    tagDisplayProp={null}
+    tagProps={
+      Object {
+        "className": "TagsInput-tag",
+        "classNameRemove": "TagsInput-remove",
+      }
+    }
+    validationRegex={/\\.\\*/}
+    value={Array []}
+  />
+</div>
+`;
+
+exports[`<TagsInput> when it is rendered with quality assurance id has expected markup 1`] = `
+<div
+  id="TagsInput-QA-wrapper"
+>
+  <TagsInput
+    addKeys={
+      Array [
+        9,
+        13,
+      ]
+    }
+    addOnBlur={false}
+    addOnPaste={false}
+    className="form-control TagsInput"
+    disabled={false}
+    focusedClassName="TagsInput-focused"
+    inputProps={
+      Object {
+        "className": "TagsInput-input",
+        "placeholder": "",
+      }
+    }
+    maxTags={-1}
+    onChange={[Function]}
+    onlyUnique={false}
+    pasteSplit={[Function]}
+    preventSubmit={true}
+    removeKeys={
+      Array [
+        8,
+      ]
+    }
+    renderInput={[Function]}
+    renderLayout={[Function]}
+    renderTag={[Function]}
+    tagDisplayProp={null}
+    tagProps={
+      Object {
+        "className": "TagsInput-tag",
+        "classNameRemove": "TagsInput-remove",
+      }
+    }
+    validationRegex={/\\.\\*/}
+    value={Array []}
+  />
+</div>
+`;
+
+exports[`<TagsInput> when it is rendered with required props has expected markup 1`] = `
+<div
+  id={undefined}
+>
+  <TagsInput
+    addKeys={
+      Array [
+        9,
+        13,
+      ]
+    }
+    addOnBlur={false}
+    addOnPaste={false}
+    className="form-control TagsInput"
+    disabled={false}
+    focusedClassName="TagsInput-focused"
+    inputProps={
+      Object {
+        "className": "TagsInput-input",
+        "placeholder": "",
+      }
+    }
+    maxTags={-1}
+    onChange={[Function]}
+    onlyUnique={false}
+    pasteSplit={[Function]}
+    preventSubmit={true}
+    removeKeys={
+      Array [
+        8,
+      ]
+    }
+    renderInput={[Function]}
+    renderLayout={[Function]}
+    renderTag={[Function]}
+    tagDisplayProp={null}
+    tagProps={
+      Object {
+        "className": "TagsInput-tag",
+        "classNameRemove": "TagsInput-remove",
+      }
+    }
+    validationRegex={/\\.\\*/}
+    value={Array []}
+  />
+</div>
+`;

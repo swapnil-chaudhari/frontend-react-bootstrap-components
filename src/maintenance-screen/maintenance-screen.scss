@@ -1,0 +1,52 @@
+@import "src/styles/variables";
+@import "src/styles/colors";
+
+.MaintenanceScreen-centered {
+    display: block;
+    margin: 0 auto;
+}
+
+.MaintenanceScreen {
+    background: $blue_600;
+    height: 100%;
+    width: 100%;
+
+    &-logo {
+        padding-bottom: 50px;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    &-content {
+        @extend .MaintenanceScreen-centered;
+        background: $humpback;
+        border-radius: 10px;
+        padding: 60px;
+        text-align: center;
+        width: 650px;
+    }
+
+    &-graphic {
+        @extend .MaintenanceScreen-centered;
+        width: 200px;
+    }
+
+    &-title,
+    &-subtitle {
+        color: $blue_100;
+    }
+
+    &-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 50px 0 15px 0;
+    }
+
+    &-subtitle {
+        font-size: 14px;
+    }
+
+    &-highlighted {
+        color: $fox;
+    }
+}

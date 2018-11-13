@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GroupedBarChartYaxis> when it renders has proper markup 1`] = `
+<g>
+  <line
+    className="GroupedBarChartYaxis-line"
+    x1={30}
+    x2={30}
+    y1={20}
+    y2={200}
+  />
+  <g>
+    <line
+      className="GroupedBarChartYaxis-tick"
+      x1={0}
+      x2={100}
+      y1={1}
+      y2={1}
+    />
+  </g>
+  <g>
+    <line
+      className="GroupedBarChartYaxis-tick"
+      x1={0}
+      x2={100}
+      y1={2}
+      y2={2}
+    />
+    <g>
+      <text
+        className="GroupedBarChartYaxis-label"
+        x={0}
+        y={2}
+      >
+        2
+      </text>
+    </g>
+  </g>
+</g>
+`;

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterLimitIndicator when it loses focus renders expected markup 1`] = `
+<div
+  className="CharacterLimitIndicator"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  <div />
+</div>
+`;
+
+exports[`CharacterLimitIndicator when it receives focus renders expected markup 1`] = `
+<div
+  className="CharacterLimitIndicator"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  <div
+    className="CharacterLimitIndicator-indicator"
+  >
+    <div
+      className="CharacterLimitIndicator-message"
+    >
+      [object Object] 1234
+    </div>
+    <div
+      className="CharacterLimitIndicator-remaining"
+    >
+       (1234)
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`CharacterLimitIndicator when it renders with a value to apply a limit to and the value does not exceed the limit renders expected markup 1`] = `
+<div
+  className="CharacterLimitIndicator"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  <div />
+</div>
+`;
+
+exports[`CharacterLimitIndicator when it renders with a value to apply a limit to and the value exceeds the limit renders expected markup 1`] = `
+<div
+  className="CharacterLimitIndicator"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  <div
+    className="CharacterLimitIndicator-indicator CharacterLimitIndicator-indicator-error"
+  >
+    <div
+      className="CharacterLimitIndicator-message"
+    >
+      [object Object] 1234
+    </div>
+    <div
+      className="CharacterLimitIndicator-remaining"
+    >
+       (-1)
+    </div>
+  </div>
+  <div />
+</div>
+`;
+
+exports[`CharacterLimitIndicator when it renders with required props and required context renders expected markup 1`] = `
+<div
+  className="CharacterLimitIndicator"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  <div />
+</div>
+`;

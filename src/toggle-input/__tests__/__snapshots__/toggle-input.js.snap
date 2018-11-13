@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleInput renders the toggle input 1`] = `
+<div
+  className="ToggleInput className"
+  id="qaid"
+>
+  <div
+    className="ToggleInput-label"
+    onClick={[Function]}
+  >
+    Yes
+  </div>
+  <div
+    className="ToggleInput-toggle-bg"
+    onClick={[Function]}
+  >
+    <div
+      className="ToggleInput-toggle ToggleInput-toggle-right"
+    />
+  </div>
+  <div
+    className="ToggleInput-label ToggleInput-label-enabled"
+    onClick={[Function]}
+  >
+    No
+  </div>
+</div>
+`;

@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DoughnutChart when it was rendered has title text 1`] = `
+<div
+  className="Doughnut-chart"
+>
+  <svg
+    height={375}
+    width={1000}
+  >
+    <defs>
+      <filter
+        height="300%"
+        id="dropShadow"
+        width="300%"
+        x="0"
+        y="0"
+      >
+        <feGaussianBlur
+          in="SourceAlpha"
+          result="blur-out"
+          stdDeviation="2"
+        />
+        <feOffset
+          dx="2"
+          dy="1"
+          in="blur-out"
+          result="the-shadow"
+        />
+        <feColorMatrix
+          in="the-shadow"
+          result="color-out"
+          type="matrix"
+          values="0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0 .25 0"
+        />
+        <feBlend
+          in="SourceGraphic"
+          in2="color-out"
+          mode="normal"
+        />
+      </filter>
+    </defs>
+    <g
+      transform="translate(500,187.5)"
+    >
+      <g>
+        <polyline
+          className="Doughnut-chart-tx-line"
+          points="106.99385808320477,34.76441186718161 126.01498840910784,40.94475175468056 500,40.94475175468056"
+          strokeWidth={1}
+        />
+        <text
+          className="Doughnut-chart-tx-amount"
+          dy="0.1em"
+          style={
+            Object {
+              "textAnchor": "end",
+            }
+          }
+          transform="translate(500,33.44475175468056)"
+        >
+          cVod
+        </text>
+        <rect
+          fillOpacity="0"
+          height={46.18033988749895}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          width={413.00614191679523}
+          x={96.99385808320477}
+          y={14.764411867181607}
+        />
+      </g>
+      <g>
+        <polyline
+          className="Doughnut-chart-tx-line"
+          points="-500,-40.94475175468052 -126.01498840910786,-40.94475175468052 -106.99385808320478,-34.76441186718157"
+          strokeWidth={1}
+        />
+        <text
+          className="Doughnut-chart-tx-amount"
+          dy="0.1em"
+          style={
+            Object {
+              "textAnchor": "start",
+            }
+          }
+          transform="translate(-500,-48.44475175468052)"
+        >
+          EST
+        </text>
+        <rect
+          fillOpacity="0"
+          height={46.180339887498945}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          width={413.00614191679523}
+          x={-510}
+          y={-60.94475175468052}
+        />
+      </g>
+      <path
+        className="Doughnut-chart-segment"
+        d="M6.8886382452038615e-15,-112.5A112.5,112.5,0,1,1,-66.12584088290325,91.01441186718156L-54.37013583705379,74.83407197968262A92.5,92.5,0,1,0,5.6639914460565085e-15,-92.5Z"
+        fill="blue"
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={Object {}}
+      />
+      <path
+        className="Doughnut-chart-segment"
+        d="M-66.12584088290325,91.01441186718156A112.5,112.5,0,0,1,-2.0665914735611585e-14,-112.5L-1.6991974338169524e-14,-92.5A92.5,92.5,0,0,0,-54.37013583705379,74.83407197968262Z"
+        fill="red"
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={Object {}}
+      />
+      <g>
+        <text
+          className="Doughnut-chart-title"
+        >
+          Ultimate Projected Revenue
+        </text>
+      </g>
+    </g>
+  </svg>
+</div>
+`;
+
+exports[`DoughnutChart when renderLabel was specified has proper labels set 1`] = `
+<div
+  className="Doughnut-chart"
+>
+  <svg
+    height={375}
+    width={1000}
+  >
+    <defs>
+      <filter
+        height="300%"
+        id="dropShadow"
+        width="300%"
+        x="0"
+        y="0"
+      >
+        <feGaussianBlur
+          in="SourceAlpha"
+          result="blur-out"
+          stdDeviation="2"
+        />
+        <feOffset
+          dx="2"
+          dy="1"
+          in="blur-out"
+          result="the-shadow"
+        />
+        <feColorMatrix
+          in="the-shadow"
+          result="color-out"
+          type="matrix"
+          values="0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0 .25 0"
+        />
+        <feBlend
+          in="SourceGraphic"
+          in2="color-out"
+          mode="normal"
+        />
+      </filter>
+    </defs>
+    <g
+      transform="translate(500,187.5)"
+    >
+      <g>
+        <polyline
+          className="Doughnut-chart-tx-line"
+          points="106.99385808320477,34.76441186718161 126.01498840910784,40.94475175468056 500,40.94475175468056"
+          strokeWidth={1}
+        />
+        <g>
+          cVod Channel
+        </g>
+        <rect
+          fillOpacity="0"
+          height={46.18033988749895}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          width={413.00614191679523}
+          x={96.99385808320477}
+          y={14.764411867181607}
+        />
+      </g>
+      <g>
+        <polyline
+          className="Doughnut-chart-tx-line"
+          points="-500,-40.94475175468052 -126.01498840910786,-40.94475175468052 -106.99385808320478,-34.76441186718157"
+          strokeWidth={1}
+        />
+        <g>
+          EST Channel
+        </g>
+        <rect
+          fillOpacity="0"
+          height={46.180339887498945}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          width={413.00614191679523}
+          x={-510}
+          y={-60.94475175468052}
+        />
+      </g>
+      <path
+        className="Doughnut-chart-segment"
+        d="M6.8886382452038615e-15,-112.5A112.5,112.5,0,1,1,-66.12584088290325,91.01441186718156L-54.37013583705379,74.83407197968262A92.5,92.5,0,1,0,5.6639914460565085e-15,-92.5Z"
+        fill="blue"
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={Object {}}
+      />
+      <path
+        className="Doughnut-chart-segment"
+        d="M-66.12584088290325,91.01441186718156A112.5,112.5,0,0,1,-2.0665914735611585e-14,-112.5L-1.6991974338169524e-14,-92.5A92.5,92.5,0,0,0,-54.37013583705379,74.83407197968262Z"
+        fill="red"
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        style={Object {}}
+      />
+      <g>
+        <text
+          className="Doughnut-chart-title"
+        >
+          Ultimate Projected Revenue
+        </text>
+      </g>
+    </g>
+  </svg>
+</div>
+`;

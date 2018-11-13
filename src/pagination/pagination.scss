@@ -1,0 +1,19 @@
+.Pagination {
+    .Icons-left-pagination-arrow,
+    .Icons-right-pagination-arrow {
+        vertical-align: middle;
+    }
+}
+
+/* stylelint-disable selector-no-type, selector-class-pattern */
+.Pagination-small {
+    ul.pagination li > a,
+    ul.pagination li > span {
+        padding: 5px 10px;
+    }
+    .Icons-right-pagination-arrow,
+    .Icons-left-pagination-arrow {
+        height: 11px;
+    }
+}
+/* stylelint-enable selector-no-type, selector-class-pattern */

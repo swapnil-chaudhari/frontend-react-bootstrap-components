@@ -1,0 +1,15 @@
+@import "src/styles/variables.scss";
+
+.GroupedBarChartYaxis {
+    &-label {
+        transform: translate(9px, 4px);
+    }
+
+    &-line {
+        stroke: $timberwolf;
+    }
+
+    &-tick {
+        stroke: $timberwolf;
+    }
+}

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SVGDefinitions> when it renders svgs renders all of the defined svgs 1`] = `
+<svg
+  style={
+    Object {
+      "display": "block",
+      "height": 0,
+      "width": 0,
+    }
+  }
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <SVGAan />
+  <SVGAdvertise />
+  <SVGArtworkEmpty />
+  <SVGAttention />
+  <SVGAudioDisabled />
+  <SVGAudioEnabled />
+  <SVGAudioPlayerMute />
+  <SVGAudioPlayerNext />
+  <SVGAudioPlayerNextLite />
+  <SVGAudioPlayerPause />
+  <SVGAudioPlayerPauseLite />
+  <SVGAudioPlayerPlay />
+  <SVGAudioPlayerPrevious />
+  <SVGAudioPlayerPreviousLite />
+  <SVGAudioPlayerVolume />
+  <SVGCalendar />
+  <SVGChevron />
+  <SVGCleanVersion />
+  <SVGCloseButton />
+  <SVGCloseRound />
+  <SVGCompleteCheckmark />
+  <SVGDigital />
+  <SVGDigitalAudio />
+  <SVGDownDirectionArrow />
+  <SVGDownloadBox />
+  <SVGDownloadSymbol />
+  <SVGEdit />
+  <SVGError404 />
+  <SVGExplicit />
+  <SVGExternalLink />
+  <SVGFacebook />
+  <SVGFilledChevronDown />
+  <SVGFilledChevronUp />
+  <SVGFilm />
+  <SVGGear />
+  <SVGGoToCatalog />
+  <SVGHistory />
+  <SVGInfo />
+  <SVGLeftPaginationArrow />
+  <SVGLoadingArrows />
+  <SVGLoadingRing />
+  <SVGLogo />
+  <SVGLogoAndName />
+  <SVGMan />
+  <SVGNewProduct />
+  <SVGPdf />
+  <SVGPhysical />
+  <SVGPhysicalAudio />
+  <SVGPlay />
+  <SVGPlus />
+  <SVGRefresh />
+  <SVGRightDirectionArrow />
+  <SVGRightPaginationArrow />
+  <SVGRoyaltyShareLogo />
+  <SVGSearch />
+  <SVGServerError />
+  <SVGSpotify />
+  <SVGStatusComplete />
+  <SVGStatusInProgress />
+  <SVGStatusRed />
+  <SVGStatusSubmitted />
+  <SVGStop />
+  <SVGSuccessCheckmark />
+  <SVGThreeDots />
+  <SVGThreeRightDirectedArrows />
+  <SVGTracksCompleteCheckmark />
+  <SVGTracksEmpty />
+  <SVGTransparentLogo />
+  <SVGTrashCan />
+  <SVGTwitter />
+  <SVGTripleCheckmark />
+  <SVGUpAndDownArrows />
+  <SVGUpAndDownCarets />
+  <SVGUpDirectionArrow />
+  <SVGUpload />
+  <SVGViewMoreNextArrow />
+  <SVGWoman />
+  <SVGXls />
+  <SVGYoutube />
+  <SVGCamera />
+  <SVGPlaylistPlaceholder />
+  <SVGUploadArrow />
+  <SVGImportArrow />
+  <SVGVideo />
+  <SVGVideoError />
+</svg>
+`;

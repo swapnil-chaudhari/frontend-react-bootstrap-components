@@ -1,0 +1,37 @@
+@import "src/styles/variables.scss";
+
+.Doughnut-chart {
+    &-total {
+        fill: $gorilla;
+        font-size: $text_large;
+        font-weight: $weight_light;
+        text-anchor: middle;
+    }
+
+    &-title {
+        fill: $gorilla;
+        font-size: $text_xs;
+        font-weight: $weight_book;
+        text-anchor: middle;
+    }
+
+    &-tx-amount {
+        fill: $gorilla;
+        font-size: $text_medium;
+        font-weight: $weight_light;
+
+        &-strong {
+            font-weight: $weight_book;
+        }
+    }
+
+    &-tx-type {
+        fill: $grey_300;
+        font-weight: $weight_light;
+    }
+
+    &-tx-line {
+        fill: none;
+        stroke: $grey_300;
+    }
+}

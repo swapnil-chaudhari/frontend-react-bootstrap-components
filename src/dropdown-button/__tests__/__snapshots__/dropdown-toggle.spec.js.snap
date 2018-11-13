@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownToggle> when it renders has proper markup 1`] = `
+<Button
+  className="btn"
+>
+  Create
+</Button>
+`;

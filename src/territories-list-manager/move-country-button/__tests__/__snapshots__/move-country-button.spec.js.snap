@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MoveCountryButton> when it renders renders button with correct data 1`] = `
+<div
+  className="MoveCountryButton"
+  onClick={[Function]}
+>
+  <ThreeArrowsIcon
+    isHidden={true}
+    reversed={true}
+  />
+  <div
+    className="MoveCountryButton-text"
+  >
+    <p>
+      move selected label
+       (1)
+    </p>
+    <p>
+      move to label
+      <b>
+         The Other List Label
+      </b>
+    </p>
+  </div>
+  <ThreeArrowsIcon
+    isHidden={false}
+    reversed={false}
+  />
+</div>
+`;

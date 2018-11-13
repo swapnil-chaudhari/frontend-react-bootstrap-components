@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SingleDateInput> when blurring has proper markup 1`] = `
+<ClickOutside
+  onClickOutside={[Function]}
+>
+  <section
+    className="DateInput-section"
+  >
+    <div
+      className="DateInput-container"
+    >
+      <input
+        className="form-control"
+        name="my-date-input"
+        onFocus={[Function]}
+        type="text"
+        value="10/15/2020"
+      />
+      <Calendar />
+    </div>
+  </section>
+</ClickOutside>
+`;
+
+exports[`<SingleDateInput> when focusing has proper markup 1`] = `
+<ClickOutside
+  onClickOutside={[Function]}
+>
+  <section
+    className="DateInput-section"
+  >
+    <div
+      className="DateInput-container"
+    >
+      <input
+        className="form-control"
+        name="my-date-input"
+        onFocus={[Function]}
+        type="text"
+        value="10/15/2020"
+      />
+      <Calendar />
+      <DayPickerSingleDateController
+        date={"2020-10-15T04:00:00.000Z"}
+        daySize={39}
+        enableOutsideDays={false}
+        firstDayOfWeek={null}
+        focused={true}
+        hideKeyboardShortcutsPanel={false}
+        initialVisibleMonth={null}
+        isDayBlocked={[Function]}
+        isDayHighlighted={[Function]}
+        isFocused={false}
+        isOutsideRange={[Function]}
+        isRTL={false}
+        keepOpenOnDateSelect={false}
+        monthFormat="MMMM YYYY"
+        navNext={<RightPaginationArrow />}
+        navPrev={<LeftPaginationArrow />}
+        numberOfMonths={1}
+        onBlur={[Function]}
+        onClose={[Function]}
+        onDateChange={[Function]}
+        onFocusChange={[Function]}
+        onNextMonthClick={[Function]}
+        onOutsideClick={null}
+        onPrevMonthClick={[Function]}
+        orientation="horizontal"
+        phrases={
+          Object {
+            "calendarLabel": "Calendar",
+            "chooseAvailableDate": [Function],
+            "chooseAvailableEndDate": [Function],
+            "chooseAvailableStartDate": [Function],
+            "dateIsUnavailable": [Function],
+            "enterKey": "Enter key",
+            "escape": "Escape key",
+            "hideKeyboardShortcutsPanel": "Close the shortcuts panel",
+            "homeEnd": "Home and end keys",
+            "jumpToNextMonth": "Move forward to switch to the next month",
+            "jumpToPrevMonth": "Move backward to switch to the previous month",
+            "keyboardShortcuts": "Keyboard Shortcuts",
+            "leftArrowRightArrow": "Right and left arrow keys",
+            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day",
+            "moveFocusByOneMonth": "Switch months",
+            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week",
+            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week",
+            "openThisPanel": "Open this panel",
+            "pageUpPageDown": "page up and page down keys",
+            "questionMark": "Question mark",
+            "returnFocusToInput": "Return to the date input field",
+            "selectFocusedDate": "Select the date in focus",
+            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel",
+            "upArrowDownArrow": "up and down arrow keys",
+          }
+        }
+        renderCalendarInfo={null}
+        renderDay={null}
+        renderMonth={null}
+        showKeyboardShortcuts={false}
+        weekDayFormat="dd"
+        withPortal={false}
+      />
+    </div>
+  </section>
+</ClickOutside>
+`;
+
+exports[`<SingleDateInput> when rendered with required props has proper markup 1`] = `
+<ClickOutside
+  onClickOutside={[Function]}
+>
+  <section
+    className="DateInput-section"
+  >
+    <div
+      className="DateInput-container"
+    >
+      <input
+        className="form-control"
+        name="my-date-input"
+        onFocus={[Function]}
+        type="text"
+        value="10/15/2020"
+      />
+      <Calendar />
+    </div>
+  </section>
+</ClickOutside>
+`;
+
+exports[`<SingleDateInput> when toggling has proper markup 1`] = `
+<ClickOutside
+  onClickOutside={[Function]}
+>
+  <section
+    className="DateInput-section"
+  >
+    <div
+      className="DateInput-container"
+    >
+      <input
+        className="form-control"
+        name="my-date-input"
+        onFocus={[Function]}
+        type="text"
+        value="10/15/2020"
+      />
+      <Calendar />
+      <DayPickerSingleDateController
+        date={"2020-10-15T04:00:00.000Z"}
+        daySize={39}
+        enableOutsideDays={false}
+        firstDayOfWeek={null}
+        focused={true}
+        hideKeyboardShortcutsPanel={false}
+        initialVisibleMonth={null}
+        isDayBlocked={[Function]}
+        isDayHighlighted={[Function]}
+        isFocused={false}
+        isOutsideRange={[Function]}
+        isRTL={false}
+        keepOpenOnDateSelect={false}
+        monthFormat="MMMM YYYY"
+        navNext={<RightPaginationArrow />}
+        navPrev={<LeftPaginationArrow />}
+        numberOfMonths={1}
+        onBlur={[Function]}
+        onClose={[Function]}
+        onDateChange={[Function]}
+        onFocusChange={[Function]}
+        onNextMonthClick={[Function]}
+        onOutsideClick={null}
+        onPrevMonthClick={[Function]}
+        orientation="horizontal"
+        phrases={
+          Object {
+            "calendarLabel": "Calendar",
+            "chooseAvailableDate": [Function],
+            "chooseAvailableEndDate": [Function],
+            "chooseAvailableStartDate": [Function],
+            "dateIsUnavailable": [Function],
+            "enterKey": "Enter key",
+            "escape": "Escape key",
+            "hideKeyboardShortcutsPanel": "Close the shortcuts panel",
+            "homeEnd": "Home and end keys",
+            "jumpToNextMonth": "Move forward to switch to the next month",
+            "jumpToPrevMonth": "Move backward to switch to the previous month",
+            "keyboardShortcuts": "Keyboard Shortcuts",
+            "leftArrowRightArrow": "Right and left arrow keys",
+            "moveFocusByOneDay": "Move backward (left) and forward (right) by one day",
+            "moveFocusByOneMonth": "Switch months",
+            "moveFocusByOneWeek": "Move backward (up) and forward (down) by one week",
+            "moveFocustoStartAndEndOfWeek": "Go to the first or last day of a week",
+            "openThisPanel": "Open this panel",
+            "pageUpPageDown": "page up and page down keys",
+            "questionMark": "Question mark",
+            "returnFocusToInput": "Return to the date input field",
+            "selectFocusedDate": "Select the date in focus",
+            "showKeyboardShortcutsPanel": "Open the keyboard shortcuts panel",
+            "upArrowDownArrow": "up and down arrow keys",
+          }
+        }
+        renderCalendarInfo={null}
+        renderDay={null}
+        renderMonth={null}
+        showKeyboardShortcuts={false}
+        weekDayFormat="dd"
+        withPortal={false}
+      />
+    </div>
+  </section>
+</ClickOutside>
+`;

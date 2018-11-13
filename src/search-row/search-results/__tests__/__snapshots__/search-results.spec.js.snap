@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchResults> when artist dropdown enabled and searching for tracks renders search component with Tracks selected in dropdown 1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        <div>
+          <h5
+            className="Search-no-results-label"
+          >
+            noMatchLabel
+          </h5>
+          <h5
+            className="Search-no-results-label"
+          >
+            checkSpellingLabel
+          </h5>
+        </div>
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={
+        Array [
+          Object {
+            "isrc": "iii",
+            "upc": "uuu",
+          },
+          Object {
+            "isrc": "jjj",
+            "upc": "zzz",
+          },
+        ]
+      }
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;
+
+exports[`<SearchResults> when in default state renders component with correct properties  1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        <div>
+          <h5
+            className="Search-no-results-label"
+          >
+            noMatchLabel
+          </h5>
+          <h5
+            className="Search-no-results-label"
+          >
+            checkSpellingLabel
+          </h5>
+        </div>
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={Array []}
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;
+
+exports[`<SearchResults> when loading is passed as true renders loading state 1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-loading SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        Array [
+          <div
+            className="SearchResults-heading"
+          >
+            searchResultsHeadingLabel
+          </div>,
+          <div
+            className="SearchResultsLoadingIndicator"
+          >
+            <LoadingIndicator />
+          </div>,
+        ]
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={Array []}
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;
+
+exports[`<SearchResults> when search error is passed renders component with error 1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        <div>
+          <h5
+            className="Search-no-results-label"
+          >
+            noMatchLabel
+          </h5>
+          <h5
+            className="Search-no-results-label"
+          >
+            checkSpellingLabel
+          </h5>
+        </div>
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={Array []}
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;
+
+exports[`<SearchResults> with artist dropdown enabled and searching for artists renders search component with Artist selected in dropdown 1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        <div>
+          <h5
+            className="Search-no-results-label"
+          >
+            noMatchLabel
+          </h5>
+          <h5
+            className="Search-no-results-label"
+          >
+            checkSpellingLabel
+          </h5>
+        </div>
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchArtistsPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={
+        Array [
+          Object {
+            "isrc": "iii",
+            "upc": "uuu",
+          },
+          Object {
+            "isrc": "jjj",
+            "upc": "zzz",
+          },
+        ]
+      }
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;
+
+exports[`<SearchResults> with tags and searching for tracks) renders component without dropdown 1`] = `
+<div
+  className="SearchResults-wrapper"
+>
+  <div
+    className="SearchResults SearchResults-with-artist-track-dropdown"
+  >
+    <SelectInput
+      arrowRenderer={[Function]}
+      cache={false}
+      className="SearchResults-with-dropdown"
+      dropUpIfOutOfViewport={false}
+      filterOptions={false}
+      menuRenderer={[Function]}
+      multi={true}
+      noResultsText={
+        <div>
+          <h5
+            className="Search-no-results-label"
+          >
+            noMatchLabel
+          </h5>
+          <h5
+            className="Search-no-results-label"
+          >
+            checkSpellingLabel
+          </h5>
+        </div>
+      }
+      onBlurResetsInput={false}
+      onChange={[Function]}
+      onInputChange={[Function]}
+      options={Array []}
+      placeholder="searchPlaceholderLabel"
+      scrollMenuIntoView={false}
+      searchable={true}
+      selectType="select"
+      value={
+        Array [
+          Object {
+            "isrc": "iii",
+            "upc": "uuu",
+          },
+          Object {
+            "isrc": "jjj",
+            "upc": "zzz",
+          },
+        ]
+      }
+      valueComponent={[Function]}
+    />
+    <Search />
+  </div>
+</div>
+`;

@@ -1,0 +1,65 @@
+@import "src/styles/variables";
+
+.ContinentItem {
+    &-container {
+        background-color: $blue_100;
+        border-top: 1px solid $grey_300;
+        display: flex;
+        font-weight: bold;
+        margin: 0;
+        padding: 5px 25px;
+
+        & + & {
+            margin-top: 0;
+        }
+
+        & .ContinentItem-label {
+            color: $grey_900;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 5px 10px;
+            text-transform: none;
+            user-select: none;
+        }
+
+        & .ContinentItem-label.ContinentItem-disabled {
+            color: $grey_400;
+        }
+    }
+
+    &-country {
+        border-left: 1px solid $grey_300;
+        border-right: 1px solid $grey_300;
+        margin-left: 25px;
+        margin-right: 25px;
+
+        & .ContinentItem-label {
+            font-weight: 400;
+            width: 100%;
+        }
+    }
+
+    &-label-inverted {
+        transform: rotateX(180deg);
+    }
+
+    &-fullWidth {
+        flex-grow: 2;
+        text-align: right;
+    }
+
+    & [disabled]::after {
+        background-color: $grey_200;
+        border-radius: 5px;
+        content: "";
+        height: 12px;
+        position: absolute;
+        width: 12px;
+    }
+
+    &-bordered {
+        border-bottom: 1px solid $grey_300;
+    }
+}

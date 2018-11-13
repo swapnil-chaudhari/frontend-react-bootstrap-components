@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClickableTable when classNames was specified renders HTML clickable-table 1`] = `
+<table
+  className="ClickableTable table table-striped"
+>
+  <thead>
+    <tr
+      className="header"
+    >
+      <th
+        className="header-cell"
+      >
+        PROJECT NAME
+      </th>
+      <th
+        className="header-cell"
+      >
+        PROJECT CODE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className="cell"
+      >
+        Bruce
+      </td>
+      <td
+        className="cell"
+      >
+        Wayne
+      </td>
+    </tr>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className="cell"
+      >
+        Clark
+      </td>
+      <td
+        className="cell"
+      >
+        Kent
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ClickableTable when footer is included renders footer of clickable-table 1`] = `
+<table
+  className="ClickableTable table table-striped"
+>
+  <thead>
+    <tr
+      className={undefined}
+    >
+      <th
+        className={undefined}
+      >
+        PROJECT NAME
+      </th>
+      <th
+        className={undefined}
+      >
+        PROJECT CODE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Bruce
+      </td>
+      <td
+        className={undefined}
+      >
+        Wayne
+      </td>
+    </tr>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Clark
+      </td>
+      <td
+        className={undefined}
+      >
+        Kent
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr
+      className={undefined}
+    >
+      <td
+        className={undefined}
+      >
+        FOOTER
+      </td>
+    </tr>
+  </tfoot>
+</table>
+`;
+
+exports[`ClickableTable when header and rows are included renders HTML clickable-table 1`] = `
+<table
+  className="ClickableTable table table-striped"
+>
+  <thead>
+    <tr
+      className={undefined}
+    >
+      <th
+        className={undefined}
+      >
+        PROJECT NAME
+      </th>
+      <th
+        className={undefined}
+      >
+        PROJECT CODE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Bruce
+      </td>
+      <td
+        className={undefined}
+      >
+        Wayne
+      </td>
+    </tr>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Clark
+      </td>
+      <td
+        className={undefined}
+      >
+        Kent
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ClickableTable when rowRenderer is passed renders table body of clickable-table 1`] = `
+<table
+  className="ClickableTable table table-striped"
+>
+  <thead>
+    <tr
+      className={undefined}
+    >
+      <th
+        className={undefined}
+      >
+        PROJECT NAME
+      </th>
+      <th
+        className={undefined}
+      >
+        PROJECT CODE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <TestComponent
+          value="test"
+        />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <TestComponent
+          value="test2"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`ClickableTable when tableHeader is included renders tableHeading of clickable-table 1`] = `
+<table
+  className="ClickableTable table table-striped"
+>
+  <thead>
+    <tr
+      className={undefined}
+    >
+      <th
+        className={undefined}
+        colSpan={2}
+      >
+        HEADING
+      </th>
+    </tr>
+    <tr
+      className={undefined}
+    >
+      <th
+        className={undefined}
+      >
+        PROJECT NAME
+      </th>
+      <th
+        className={undefined}
+      >
+        PROJECT CODE
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Bruce
+      </td>
+      <td
+        className={undefined}
+      >
+        Wayne
+      </td>
+    </tr>
+    <tr
+      className="ClickableTable-row"
+      onClick={[Function]}
+    >
+      <td
+        className={undefined}
+      >
+        Clark
+      </td>
+      <td
+        className={undefined}
+      >
+        Kent
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

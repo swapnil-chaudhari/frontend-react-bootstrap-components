@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChartYaxis> when it renders has proper markup 1`] = `
+<g
+  className="ChartYaxis"
+  transform="translate(1, 2)"
+>
+  <line
+    className="ChartYaxis-line"
+    x1="0"
+    x2={888}
+    y1={400}
+    y2={400}
+  />
+  <g>
+    <line
+      className="ChartYaxis-tick"
+      x1="0"
+      x2={10}
+      y1={1}
+      y2={1}
+    />
+    <text
+      className="ChartYaxis-label"
+      x="0"
+      y={1}
+    >
+      10
+    </text>
+  </g>
+  <g>
+    <line
+      className="ChartYaxis-tick"
+      x1="0"
+      x2={10}
+      y1={2}
+      y2={2}
+    />
+    <text
+      className="ChartYaxis-label"
+      x="0"
+      y={2}
+    >
+      20
+    </text>
+  </g>
+</g>
+`;

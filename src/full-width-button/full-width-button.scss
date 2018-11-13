@@ -1,0 +1,26 @@
+@import "src/styles/variables";
+
+.FullWidthButton {
+    margin-top: 10px;
+    text-align: center;
+
+    &-button-container {
+        background: $mouse;
+        padding: 20px;
+    }
+
+    &-button {
+        margin: 0 auto;
+        max-width: 40%;
+        overflow: hidden;
+    }
+
+    &-add-note {
+        margin: 10px 0 20px;
+    }
+
+    &-disabled-layout {
+        margin: 0 auto;
+        max-width: 40%;
+    }
+}

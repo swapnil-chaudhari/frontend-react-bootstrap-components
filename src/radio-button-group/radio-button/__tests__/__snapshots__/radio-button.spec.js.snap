@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton when it renders in a disabled state produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className="Opm-disabled"
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={true}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with a input style class produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className=""
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio SnazzyComponent-input"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with a label contents style class produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className="SnazzyComponent-label-contents"
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with a label style class produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label SnazzyComponent-label"
+  >
+    <span
+      className=""
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with an addon produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className=""
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+    <input />
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with required props produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className=""
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+    </span>
+  </label>
+</div>
+`;
+
+exports[`RadioButton when it renders with string label text produces expected markup 1`] = `
+<div
+  className="RadioButton-wrapper"
+>
+  <label
+    className="RadioButton-label"
+  >
+    <span
+      className=""
+    >
+      <FormControl
+        bsClass=""
+        checked={true}
+        className="RadioButton-radio"
+        componentClass="input"
+        disabled={undefined}
+        name="applesauce"
+        onChange={[Function]}
+        type="radio"
+        value="chunky"
+      />
+      sauce
+    </span>
+  </label>
+</div>
+`;

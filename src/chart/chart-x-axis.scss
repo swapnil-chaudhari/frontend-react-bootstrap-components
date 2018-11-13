@@ -1,0 +1,12 @@
+.ChartXaxis {
+    &-label {
+        fill: $timberwolf;
+        font-size: 10px;
+        position: relative;
+        transform: translate(-25px, -10px);
+    }
+
+    &-hover-text {
+        font-size: 10px;
+    }
+}

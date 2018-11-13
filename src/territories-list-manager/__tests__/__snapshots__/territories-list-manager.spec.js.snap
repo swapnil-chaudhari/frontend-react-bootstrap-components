@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TerritoriesListManager> when it renders should contain ListHeader component in TerritoriesListManager-list 1`] = `
+<div
+  className="TerritoriesListManager-list Opm-thin-grey-border Opm-border-radius"
+>
+  <ListHeader
+    formatMessage={[Function]}
+    header="Cleared For Sale"
+    messages={Object {}}
+    onCountrySearch={[Function]}
+    onCountrySearchClose={[Function]}
+    onTerritorySelect={[Function]}
+    searchQuery=""
+    selectedCountriesNumber={0}
+    totalCountriesNumber={0}
+  />
+  <div
+    className="TerritoriesListManager-territories-list"
+  >
+    <TerritoriesList
+      continentNameKey="continent"
+      expandAll={false}
+      formatMessage={[Function]}
+      messages={Object {}}
+      onCountrySelect={[Function]}
+      selectedCountries={Array []}
+      territories={Array []}
+      territoryIdKey="orchId"
+      territoryNameKey="territoryName"
+      theOtherListLabel="the other list"
+    />
+  </div>
+</div>
+`;
+
+exports[`<TerritoriesListManager> when it renders should contain TerritoriesListManager-move-button  1`] = `
+<div
+  className="TerritoriesListManager col-xs-6"
+  id="foo"
+>
+  <div
+    className="TerritoriesListManager-list Opm-thin-grey-border Opm-border-radius"
+  >
+    <ListHeader
+      formatMessage={[Function]}
+      header="Cleared For Sale"
+      messages={Object {}}
+      onCountrySearch={[Function]}
+      onCountrySearchClose={[Function]}
+      onTerritorySelect={[Function]}
+      searchQuery=""
+      selectedCountriesNumber={0}
+      totalCountriesNumber={0}
+    />
+    <div
+      className="TerritoriesListManager-territories-list"
+    >
+      <TerritoriesList
+        continentNameKey="continent"
+        expandAll={false}
+        formatMessage={[Function]}
+        messages={Object {}}
+        onCountrySelect={[Function]}
+        selectedCountries={Array []}
+        territories={Array []}
+        territoryIdKey="orchId"
+        territoryNameKey="territoryName"
+        theOtherListLabel="the other list"
+      />
+    </div>
+  </div>
+  <div
+    className="TerritoriesListManager-undo-message Opm-thin-grey-border hide"
+  >
+    <UndoLink
+      formatMessage={[Function]}
+      handleNotificationClose={[Function]}
+      handleUndoChanges={[Function]}
+      messages={Object {}}
+      movedCountriesNumber={0}
+    />
+  </div>
+  <div
+    className="TerritoriesListManager-move-button Opm-border-radius hide"
+  >
+    <MoveCountryButton
+      formatMessage={[Function]}
+      forward={true}
+      messages={Object {}}
+      onCountryMove={[Function]}
+      selectedCountriesNumber={0}
+      theOtherListLabel="the other list"
+      theOtherListType="bar"
+      thisListType="foo"
+    />
+  </div>
+</div>
+`;
+
+exports[`<TerritoriesListManager> when it renders should hide TerritoriesListManager-undo-message when no changes available  1`] = `
+<div
+  className="TerritoriesListManager-undo-message Opm-thin-grey-border hide"
+>
+  <UndoLink
+    formatMessage={[Function]}
+    handleNotificationClose={[Function]}
+    handleUndoChanges={[Function]}
+    messages={Object {}}
+    movedCountriesNumber={0}
+  />
+</div>
+`;
+
+exports[`<TerritoriesListManager> when search is triggered should show filtered list 1`] = `
+<div
+  className="TerritoriesListManager-territories-list"
+>
+  <TerritoriesList
+    continentNameKey="continent"
+    expandAll={true}
+    formatMessage={[Function]}
+    messages={Object {}}
+    onCountrySelect={[Function]}
+    selectedCountries={Array []}
+    territories={
+      Array [
+        Object {
+          "countryName": "Japan",
+        },
+      ]
+    }
+    territoryIdKey="orchId"
+    territoryNameKey="countryName"
+    theOtherListLabel="the other list"
+  />
+</div>
+`;
+
+exports[`<TerritoriesListManager> when undoNotificationVisible is true kand movedCountriesNumber is greater than 0 should show TerritoriesListManager-undo-message 1`] = `
+<div
+  className="TerritoriesListManager-undo-message Opm-thin-grey-border"
+>
+  <UndoLink
+    formatMessage={[Function]}
+    handleNotificationClose={[Function]}
+    handleUndoChanges={[Function]}
+    messages={Object {}}
+    movedCountriesNumber={2}
+  />
+</div>
+`;
